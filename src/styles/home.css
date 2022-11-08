@@ -8,22 +8,45 @@
   margin-top: 79px;
 }
 .school-images {
-  height: 90%;
-  width: 85%;
+  position: relative;
+  height: calc(100vh - 137px);
+  width: 85vw;
 }
 .hero-photo {
+  position: absolute;
+  z-index: 3;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: left;
+  transition: 0.5s all;
+  transform: translateX(0);
+}
+.hero-photo2 {
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: left;
 }
+.hero-photo-hide {
+  position: absolute;
+  z-index: 3;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s all;
+  transform: translateX(-10000px);
+}
 .hero-text {
   z-index: 5;
   position: absolute;
-  top: 99px;
-  right: 2.5vw;
-  width: 70%;
-  height: 80%;
+  top: 117px;
+  right: 2.9vw;
+  width: 65vw;
+  height: calc(100vh - 137px);
 }
 .hero-title {
   font-family: "Inter";
@@ -36,7 +59,7 @@
   position: absolute;
   top: 180px;
   right: 5.5vw;
-  width: 40%;
+  width: 35%;
   z-index: 6;
 }
 .hero-explanation {
@@ -45,8 +68,8 @@
   line-height: 24px;
 }
 .hero-pic-previous {
-  top: calc(100vh - 119px);
-  left: 30vw;
+  top: calc(100vh - 109px);
+  left: 5vw;
   z-index: 6;
   position: absolute;
   width: 30px;
@@ -62,8 +85,8 @@
   align-items: center;
 }
 .hero-pic-next {
-    top: calc(100vh - 89px);
-  left: 35vw;
+  top: calc(100vh - 109px);
+  left: calc(5vw + 50px);
   z-index: 6;
   position: absolute;
   width: 30px;
@@ -77,4 +100,105 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.news-section {
+  margin-top: 20px;
+  width: 100%;
+  height: calc(100vh - 57px);
+  border-bottom: 2px solid #1b3975;
+  border-top: 2px solid #1b3975;
+}
+
+.news-section-header {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.news-section-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+  margin-right: 15px;
+}
+.barchasi-btn {
+  background: #1b3975;
+  border-radius: 20px;
+  width: 140px;
+  height: 42px;
+  border: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  transition: 0.3s all;
+}
+.barchasi-btn:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+}
+.news-section-yangilikla {
+  width: 90%;
+  margin-top: 10px;
+  margin-left: 5%;
+  height: calc(100% - 92px);
+  display: flex;
+  justify-content: space-between;
+}
+
+.news-at-home {
+  cursor: pointer;
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+.news-at-home-pic {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: 0.3s all;
+}
+.news-at-home-pic:hover {
+  transform: scale(1.1);
+}
+.news-home-text:hover .news-at-home-pic {
+  transform: scale(1.1);
+}
+.half-news {
+  margin-right: 10px;
+  width: 50%;
+  height: 100%;
+}
+
+.news-home-text {
+    padding: 5px 10px;
+  position: absolute;
+  height: 35%;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.76) 0%,
+    rgba(0, 0, 0, 0.45) 35.73%,
+    rgba(217, 217, 217, 2.47455e-8) 100%
+  );
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
 }
