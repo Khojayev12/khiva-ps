@@ -4,9 +4,15 @@ import "../styles/home.css";
 import Photo from "../media/school.svg";
 import Photo2 from "../media/school2.jpg";
 import Photo3 from "../media/school3.jpg";
+import GroupIcon from "../media/Group.svg";
+import TeacherIcon from "../media/Teacher.svg";
+import HomeIcon from "../media/Home.svg";
+import FinishIcon from "../media/Finish.svg";
 import PhotoEffect from "../media/backround-effect.svg";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 import NewsAtHome from "../components/NewsAtHome";
+import HonorLanding from "../components/honorLanding";
+
 export default function Home() {
   //const Images = [Photo, Photo2, Photo3];
   const [pic, setPic] = useState(0);
@@ -114,6 +120,65 @@ export default function Home() {
               </div>
             </div>
           </div>
+        </div>
+
+        <div className="honors-section">
+          <div className="honors-title">BIZNING YUTUQLARIMIZ</div>
+          <div className="honor-landing-blocks">
+            <HonorLanding
+              pic={Photo}
+              num="48"
+              text="Bitiruvchi"
+              icon={GroupIcon}
+            />
+            <HonorLanding
+              pic={Photo}
+              num="48"
+              text="Bitiruvchi"
+              icon={TeacherIcon}
+            />
+            <HonorLanding
+              pic={Photo}
+              num="48"
+              text="Bitiruvchi"
+              icon={HomeIcon}
+            />
+            <HonorLanding
+              pic={Photo}
+              num="48"
+              text="Bitiruvchi"
+              icon={FinishIcon}
+            />
+          </div>
+          <div className="main-honors">
+            <div className="main-honor">
+              <div className="main-honor-pic">
+                <img src={Photo} alt="" className="main-honor-photo" />
+              </div>
+              <div className="main-honor-text">
+                <div className="main-honor-title">Masharipov Azizbek</div>
+                <div className="main-honor-definition">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+                  architecto neque voluptates quis, inventore accusantium
+                  eligendi suscipit modi non
+                </div>
+              </div>
+            </div>
+            <div className="main-honor">
+              <div className="main-honor-pic">
+                <img src={Photo} alt="" className="main-honor-photo" />
+              </div>
+              <div className="main-honor-text">
+                <div className="main-honor-title">Abror Niyazmetov</div>
+                <div className="main-honor-definition">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+                  architecto neque voluptates quis, inventore accusantium
+                  eligendi suscipit modi non
+                </div>
+              </div>
+            </div>
+          </div>
+          <button className="barchasi-btn all-honors-btn" style={{width:"250px"}} >Barcha yutuqlar</button>
         </div>
       </div>
     </SinglePage>
