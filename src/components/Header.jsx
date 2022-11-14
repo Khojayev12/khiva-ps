@@ -3,6 +3,7 @@ import "../styles/header.css";
 import Logo from "../media/Logo.svg";
 import LangPanel from "./LangPanel";
 import { LangContext } from "./LangContext";
+import { Link } from "react-router-dom";
 
 export default function Header(props) {
   return (
@@ -12,12 +13,36 @@ export default function Header(props) {
           <div className="header">
             <img src={Logo} alt="" className="header-logo" />
             <div className="menus">
-              <div className="single-menu">{lang.mainPage}</div>
-              <div className="single-menu">Yangiliklar</div>
-              <div className="single-menu">Galereya</div>
-              <div className="single-menu">Ta'lim tizimi</div>
-              <div className="single-menu">Maktab haqida</div>
-              <div className="single-menu">Bog'lanish</div>
+              <div className="single-menu">
+                <Link to="/" className="my-link">
+                  {lang.mainPage}
+                </Link>
+              </div>
+              <div className="single-menu">
+                <Link to="/news" className="my-link">
+                  Yangiliklar
+                </Link>
+              </div>
+              <div className="single-menu">
+                <Link to="/galereya" className="my-link">
+                  Galereya
+                </Link>
+              </div>
+              <div className="single-menu">
+                <Link to="/education" className="my-link">
+                  Ta'lim tizimi
+                </Link>
+              </div>
+              <div className="single-menu">
+                <Link to="/about" className="my-link">
+                  Maktab haqida
+                </Link>
+              </div>
+              <div className="single-menu">
+                <Link to="/contact" className="my-link">
+                  Bog'lanish
+                </Link>
+              </div>
             </div>
             <div className="menu-panels">
               <LangPanel setLang={props.setLang} />

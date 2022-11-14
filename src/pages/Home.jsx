@@ -55,7 +55,7 @@ export default function Home() {
               className={pic === 2 ? "hero-photo" : "hero-photo-hide"}
             />
           </div>
-          <div className="hero-text">
+          <div className="hero-text" >
             <img src={PhotoEffect} alt="" className="hero-photo2" />
           </div>
           <div className="hero-title">
@@ -195,7 +195,7 @@ export default function Home() {
             <button className="barchasi-btn all-galereya">Barchasi</button>
           </div>
           <div className="galereya-show">
-            <div className="galereya-big">
+            <div className="galereya-big" >
               <GalereyaLanding width="100%" height="100%" pic={Photo} />
             </div>
             <div className="galereya-small">

@@ -2,11 +2,17 @@ import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Header from "./components/Header";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import AOS from "aos";
 import { languages, LangContext } from "./components/LangContext.jsx";
 
 function App() {
   const [lang, setLang] = useState(languages.uz);
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+    });
+  }, []);
   return (
     <div className="App">
       <LangContext.Provider value={lang}>
