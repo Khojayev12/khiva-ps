@@ -432,11 +432,11 @@
   width: 100%;
 }
 .staff-title {
-    margin-top: 50px;
+  margin-top: 50px;
   font-style: normal;
   font-weight: 500;
-  font-size: 36px;
-  line-height: 46px;
+  font-size: 26px;
+  line-height: 36px;
   text-align: center;
   color: #000000;
 }
@@ -460,7 +460,7 @@
   box-shadow: 5px 0px 1px 5px #1b3975;
 }
 .staff-flex {
-  height:unset;
+  height: unset;
   width: 100%;
   margin-top: 10px;
   display: flex;
@@ -498,6 +498,63 @@
   margin-bottom: 30px;
 }
 
-.all-staff{
-    width: 300px;
+.all-staff {
+  width: 300px;
+}
+
+.educatoin {
+  width: 100%;
+  position: relative;
+  margin-bottom: 30px;
+}
+.edu-title {
+  margin-top: 40px;
+  width: 100%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+.stemS {
+  position: absolute;
+  left: 5%;
+  top: 70px;
+}
+.stemT {
+  position: absolute;
+  left: 5%;
+  top: 220px;
+}
+.stemE {
+  position: absolute;
+  left: 5%;
+  top: 370px;
+}
+.stemM {
+  position: absolute;
+  left: 5%;
+  top: 520px;
+}
+.stem {
+  position: absolute;
+  left: calc(5% + 170px);
+  top: 56px;
+}
+.stem-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  color: #000000;
+  position: absolute;
+  height: 629px;
+  width: 30%;
+  right: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

@@ -4,6 +4,12 @@ import "../styles/home.css";
 import Photo from "../media/school.svg";
 import Photo2 from "../media/school2.jpg";
 import Photo3 from "../media/school3.jpg";
+import Stem from "../media/s.svg";
+import sTem from "../media/t.svg";
+import stEm from "../media/e.svg";
+import steM from "../media/m.svg";
+import STEM from "../media/stem.svg";
+
 import GroupIcon from "../media/Group.svg";
 import TeacherIcon from "../media/Teacher.svg";
 import HomeIcon from "../media/Home.svg";
@@ -208,39 +214,55 @@ export default function Home() {
         </div>
 
         <div className="school-staff">
-          <div className="staff-title">Maktab ma'muriyati</div>
-            <div className="staff-flex">
-              <SchoolStaffLanding
-                pic={Photo}
-                name="Ism Familiya"
-                status="Lavozim"
-              />
-              <SchoolStaffLanding
-                pic={Photo}
-                name="Ism Familiya"
-                status="Lavozim"
-              />
-            </div>
+          <div className="staff-title">MAKTAB MA'MURIYATI</div>
+          <div className="staff-flex">
+            <SchoolStaffLanding
+              pic={Photo}
+              name="Ism Familiya"
+              status="Lavozim"
+            />
+            <SchoolStaffLanding
+              pic={Photo}
+              name="Ism Familiya"
+              status="Lavozim"
+            />
+          </div>
 
-            <div className="staff-flex">
-              <SchoolStaffLanding
-                pic={Photo}
-                name="Ism Familiya"
-                status="Lavozim"
-              />
-              <SchoolStaffLanding
-                pic={Photo}
-                name="Ism Familiya"
-                status="Lavozim"
-              />
-              <SchoolStaffLanding
-                pic={Photo}
-                name="Ism Familiya"
-                status="Lavozim"
-              />
+          <div className="staff-flex">
+            <SchoolStaffLanding
+              pic={Photo}
+              name="Ism Familiya"
+              status="Lavozim"
+            />
+            <SchoolStaffLanding
+              pic={Photo}
+              name="Ism Familiya"
+              status="Lavozim"
+            />
+            <SchoolStaffLanding
+              pic={Photo}
+              name="Ism Familiya"
+              status="Lavozim"
+            />
           </div>
           <div className="staff-flex">
-            <button className="barchasi-btn all-staff" >Barcha xodimlar</button>
+            <button className="barchasi-btn all-staff">Barcha xodimlar</button>
+          </div>
+        </div>
+
+        <div className="educatoin">
+          <div className="edu-title">Ta'lim tizimi</div>
+          <img src={Stem} alt="" className="stemS" />
+          <img src={sTem} alt="" className="stemT" />
+          <img src={stEm} alt="" className="stemE" />
+          <img src={steM} alt="" className="stemM" />
+          <img src={STEM} alt="" className="stem" />
+          <div className="stem-text">
+            Science, technology, engineering, and mathematics is a broad term
+            used to group together these academic disciplines. This term is
+            typically used to address an education policy or curriculum choices
+            in schools. It has implications for workforce development, national
+            security concerns and immigration policy.
           </div>
         </div>
       </div>
