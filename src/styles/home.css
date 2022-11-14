@@ -424,6 +424,80 @@
   border-top: #1b3975 10px solid;
   border-right: #1b3975 10px solid;
 }
-.the-hidden-thing{
+.the-hidden-thing {
   display: none;
+}
+
+.school-staff {
+  width: 100%;
+}
+.staff-title {
+    margin-top: 50px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 46px;
+  text-align: center;
+  color: #000000;
+}
+
+.staff-landing {
+  width: 400px;
+  height: 450px;
+  position: relative;
+}
+.lan-staf-pic {
+  position: absolute;
+  left: 50px;
+  top: 0px;
+  z-index: 20;
+  object-fit: cover;
+  object-position: center;
+  width: 300px;
+  height: 300px;
+  border: none;
+  border-radius: 150px;
+  box-shadow: 5px 0px 1px 5px #1b3975;
+}
+.staff-flex {
+  height:unset;
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.lan-staf-div {
+  position: absolute;
+  top: 150px;
+  left: 0px;
+  width: 400px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  box-shadow: 5px 5px 1px 5px #1b3975;
+  border-radius: 30px;
+  background-color: white;
+}
+
+.lan-staf-name {
+  margin-top: 170px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+.lan-staf-status {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.all-staff{
+    width: 300px;
 }

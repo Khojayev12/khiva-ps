@@ -13,6 +13,7 @@ import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 import NewsAtHome from "../components/NewsAtHome";
 import HonorLanding from "../components/honorLanding";
 import GalereyaLanding from "../components/GalereyaLanding";
+import SchoolStaffLanding from "../components/SchoolStaff_Landing";
 
 export default function Home() {
   //const Images = [Photo, Photo2, Photo3];
@@ -55,7 +56,7 @@ export default function Home() {
               className={pic === 2 ? "hero-photo" : "hero-photo-hide"}
             />
           </div>
-          <div className="hero-text" >
+          <div className="hero-text">
             <img src={PhotoEffect} alt="" className="hero-photo2" />
           </div>
           <div className="hero-title">
@@ -195,7 +196,7 @@ export default function Home() {
             <button className="barchasi-btn all-galereya">Barchasi</button>
           </div>
           <div className="galereya-show">
-            <div className="galereya-big" >
+            <div className="galereya-big">
               <GalereyaLanding width="100%" height="100%" pic={Photo} />
             </div>
             <div className="galereya-small">
@@ -203,6 +204,43 @@ export default function Home() {
               <GalereyaLanding width="100%" height="33%" pic={Photo} />
               <GalereyaLanding width="100%" height="33%" pic={Photo} />
             </div>
+          </div>
+        </div>
+
+        <div className="school-staff">
+          <div className="staff-title">Maktab ma'muriyati</div>
+            <div className="staff-flex">
+              <SchoolStaffLanding
+                pic={Photo}
+                name="Ism Familiya"
+                status="Lavozim"
+              />
+              <SchoolStaffLanding
+                pic={Photo}
+                name="Ism Familiya"
+                status="Lavozim"
+              />
+            </div>
+
+            <div className="staff-flex">
+              <SchoolStaffLanding
+                pic={Photo}
+                name="Ism Familiya"
+                status="Lavozim"
+              />
+              <SchoolStaffLanding
+                pic={Photo}
+                name="Ism Familiya"
+                status="Lavozim"
+              />
+              <SchoolStaffLanding
+                pic={Photo}
+                name="Ism Familiya"
+                status="Lavozim"
+              />
+          </div>
+          <div className="staff-flex">
+            <button className="barchasi-btn all-staff" >Barcha xodimlar</button>
           </div>
         </div>
       </div>
