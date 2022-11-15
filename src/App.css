@@ -1,6 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-body{
-    font-family: 'Inter';
-    margin: 0px;
-    padding: 0px;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body {
+  font-family: "Inter";
+  margin: 0px;
+  padding: 0px;
+}
+
+.about-page {
+  width: 90%;
+  margin-left: 5%;
+}
+.school-img {
+  margin-top: 70px;
+  width: 50%;
+  height: 400px;
+  display: inline-block;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: left;
+  object-position: top;
+  color: black;
+}
+.school-img > img {
+  width: 100%;
+  height: 100%;
+}
+.about-text{
+    font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: left;
+  object-position: top;
+  color: black;
 }

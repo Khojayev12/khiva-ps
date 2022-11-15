@@ -9,6 +9,7 @@ import News from "./pages/News";
 import NewsByCategory from "./components/NewsByCategory";
 import Photo from "./media/school.svg";
 import NewsPage from "./pages/NewsPage";
+import About from "./pages/About";
 
 function App() {
   const [lang, setLang] = useState(languages.uz);
@@ -33,6 +34,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/news" element={<News />} />
+            <Route path="/about" element={<About />} />
             <Route path="/post/1" element={<NewsPage data={mydata} />} />
             <Route
               path="news/all"
