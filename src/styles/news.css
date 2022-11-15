@@ -24,7 +24,7 @@
   height: 10px;
 }
 .n-main-slider {
-  width: 1300px;
+  width: 100%;
   overflow: auto;
   height: 550px;
 }

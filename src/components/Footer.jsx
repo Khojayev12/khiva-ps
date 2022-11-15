@@ -24,7 +24,7 @@ export default function Footer() {
             </div>
 
             <div className="foot" style={{ marginLeft: "70px" }}>
-              <div className="foot-xarita"> {lang.map} </div>
+              <div className="foot-xarita"> {lang.xarita} </div>
               <div className="foot-xarita-block">
                 <div className="foot-xaritas"> {lang.mainPage} </div>
                 <div className="foot-xaritas"> {lang.news} </div>
@@ -40,7 +40,6 @@ export default function Footer() {
                 <div className="foot-xaritas">
                   <CiLocationOn
                     className="foot-icon"
-                    style={{ marginLeft: "10px" }}
                   />
                   Amir Temur {lang.street},
                   <br />
@@ -71,7 +70,6 @@ export default function Footer() {
                 <div className="foot-xaritas">
                   <SiYoutube
                     className="foot-icon"
-                    style={{ marginLeft: "-10px" }}
                   />
                   Youtube
                 </div>

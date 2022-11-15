@@ -33,7 +33,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/news" element={<News />} />
-            <Route path="/news/1" element={<NewsPage data={mydata} />} />
+            <Route path="/post/1" element={<NewsPage data={mydata} />} />
             <Route
               path="news/all"
               element={<NewsByCategory title="Barcha yangiliklar" />}

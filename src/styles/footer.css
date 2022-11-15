@@ -30,12 +30,14 @@
   font-size: 15px;
   line-height: 18px;
   color: #ffffff;
+  text-align: left;
 }
 .foot-xarita-block {
   border-left: 2px solid #989898;
   margin-top: 14px;
 }
 .foot-xaritas {
+    text-align: left;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
