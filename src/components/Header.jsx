@@ -20,27 +20,27 @@ export default function Header(props) {
               </div>
               <div className="single-menu">
                 <Link to="/news" className="my-link">
-                  Yangiliklar
+                  {lang.yangiliklar}
                 </Link>
               </div>
               <div className="single-menu">
                 <Link to="/galereya" className="my-link">
-                  Galereya
+                  {lang.galereya}
                 </Link>
               </div>
               <div className="single-menu">
                 <Link to="/education" className="my-link">
-                  Ta'lim tizimi
+                  {lang.education}
                 </Link>
               </div>
               <div className="single-menu">
                 <Link to="/about" className="my-link">
-                  Maktab haqida
+                  {lang.aboutSchool}
                 </Link>
               </div>
               <div className="single-menu">
                 <Link to="/contact" className="my-link">
-                  Bog'lanish
+                  {lang.contact}
                 </Link>
               </div>
             </div>

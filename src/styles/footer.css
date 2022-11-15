@@ -1,0 +1,68 @@
+.footer {
+  width: 100%;
+  border: none;
+  background-color: #1b3975;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-image: url("../media/naqsh.png");
+  text-align: center;
+}
+.foot {
+  margin-top: 40px;
+  display: inline-block;
+}
+.foot-logo {
+  width: 130px;
+  height: 130px;
+}
+.foot-name {
+  width: 100%;
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.foot-xarita {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+}
+.foot-xarita-block {
+  border-left: 2px solid #989898;
+  margin-top: 14px;
+}
+.foot-xaritas {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+  margin-left: 16px;
+  margin-top: 15px;
+}
+.foot-right {
+  border-top: 1px solid #989898;
+  margin-top: 36px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.make-flex{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.foot-icon{
+    width: 30px;
+    text-align: center;
+    margin-left: 0px;
+}
