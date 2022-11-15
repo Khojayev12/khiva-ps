@@ -1,16 +1,14 @@
-import NewsSlider from "../components/NewsSlider";
 import SingleNews from "../components/SingleNews";
-import SinglePage from "../components/SinglePage";
 import "../styles/news.css";
 import Photo from "../media/school.svg";
-import Footer from "../components/Footer";
+import SinglePage from "./SinglePage";
 
-export default function News() {
+export default function NewsByCategory(props) {
   return (
     <SinglePage>
-      <div className="news-page">
-        <div className="just-height"></div>
-        <NewsSlider title="So'ngi yangiliklar" path="/news/all" >
+      <div className="news-category">
+        <div className="news-catogory-title">{props.title}</div>
+        <div>
           <SingleNews
             pic={Photo}
             watch="420"
@@ -41,8 +39,6 @@ export default function News() {
             title="This is title of news component"
             text="This is title of news component, This is title of news component, This is title of news component, This is title of news component"
           />
-        </NewsSlider>
-        <NewsSlider title="Tadbirlar" path="/news/events" >
           <SingleNews
             pic={Photo}
             watch="420"
@@ -67,47 +63,8 @@ export default function News() {
             title="This is title of news component"
             text="This is title of news component, This is title of news component, This is title of news component, This is title of news component"
           />
-          <SingleNews
-            pic={Photo}
-            watch="420"
-            title="This is title of news component"
-            text="This is title of news component, This is title of news component, This is title of news component, This is title of news component"
-          />
-        </NewsSlider>
-        <NewsSlider title="Uchrashuvlar" path="/news/meetings" >
-          <SingleNews
-            pic={Photo}
-            watch="420"
-            title="This is title of news component"
-            text="This is title of news component, This is title of news component, This is title of news component, This is title of news component"
-          />
-          <SingleNews
-            pic={Photo}
-            watch="420"
-            title="This is title of news component"
-            text="This is title of news component, This is title of news component, This is title of news component, This is title of news component"
-          />
-          <SingleNews
-            pic={Photo}
-            watch="420"
-            title="This is title of news component"
-            text="This is title of news component, This is title of news component, This is title of news component, This is title of news component"
-          />
-          <SingleNews
-            pic={Photo}
-            watch="420"
-            title="This is title of news component"
-            text="This is title of news component, This is title of news component, This is title of news component, This is title of news component"
-          />
-          <SingleNews
-            pic={Photo}
-            watch="420"
-            title="This is title of news component"
-            text="This is title of news component, This is title of news component, This is title of news component, This is title of news component"
-          />
-        </NewsSlider>
+        </div>
       </div>
-      <Footer />
     </SinglePage>
   );
 }

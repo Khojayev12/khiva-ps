@@ -12,6 +12,11 @@ export const languages = {
     all: "Barchasi",
     ouHonors: "Bizning yutuqlarimiz",
     allHonors: "Barcha yutuqlar",
+    schoolName:"Xiva shahridagi Prezident maktabi",
+    xarita:"Xarita",
+    street:"ko'cha",
+    social:"Ijtimoiy tarmoq",
+
   },
   en: {
     til: "ENG",
@@ -25,6 +30,10 @@ export const languages = {
     all: "All",
     ouHonors: "Our honors",
     allHonors: "All honors",
+    schoolName:"Presidential School in Khiva",
+    xarita:"Map",
+    street:"street",
+    social:"Social media",
   },
   ru: {
     til: "RU",
