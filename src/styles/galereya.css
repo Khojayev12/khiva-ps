@@ -1,0 +1,22 @@
+.gal-img-grid {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.gal-img-container {
+  display: inline-block;
+  width: 24%;
+}
+.gal-header {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  color: black;
+  margin-top: 90px;
+}
