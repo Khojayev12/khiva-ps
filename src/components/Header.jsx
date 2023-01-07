@@ -3,9 +3,10 @@ import "../styles/header.css";
 import Logo from "../media/Logo.svg";
 import LangPanel from "./LangPanel";
 import { LangContext } from "./LangContext";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 export default function Header(props) {
+  const myRouter = useLocation();
   return (
     <LangContext.Consumer>
       {(lang) => (
@@ -13,7 +14,13 @@ export default function Header(props) {
           <div className="header">
             <img src={Logo} alt="" className="header-logo" />
             <div className="menus">
-              <div className="single-menu">
+              <div
+                className={
+                  myRouter.pathname === "/"
+                    ? "single-menu single-menu-active"
+                    : "single-menu"
+                }
+              >
                 <Link to="/" className="my-link">
                   {lang.mainPage}
                 </Link>
@@ -38,10 +45,16 @@ export default function Header(props) {
                   {lang.aboutSchool}
                 </Link>
               </div>
-              <div className="single-menu">
-                <Link to="/contact" className="my-link">
-                  {lang.contact}
-                </Link>
+              <div
+                className="single-menu"
+                onClick={() => {
+                  window.scrollTo({
+                    top: document.body.scrollHeight,
+                    behavior: "smooth",
+                  });
+                }}
+              >
+                {lang.contact}
               </div>
             </div>
             <div className="menu-panels">

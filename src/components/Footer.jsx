@@ -3,6 +3,7 @@ import "../styles/footer.css";
 import Logo from "../media/Logo.svg";
 import { CiLocationOn } from "react-icons/ci";
 import { IoCallOutline } from "react-icons/io5";
+import { Link } from "react-router-dom";
 import {
   SiGmail,
   SiTelegram,
@@ -26,11 +27,31 @@ export default function Footer() {
             <div className="foot" style={{ marginLeft: "70px" }}>
               <div className="foot-xarita"> {lang.xarita} </div>
               <div className="foot-xarita-block">
-                <div className="foot-xaritas"> {lang.mainPage} </div>
-                <div className="foot-xaritas"> {lang.news} </div>
-                <div className="foot-xaritas">  {lang.galereya}  </div>
-                <div className="foot-xaritas">  {lang.education}  </div>
-                <div className="foot-xaritas"> {lang.aboutSchool} </div>
+                <div className="foot-xaritas">
+                  <Link to="/" className="my-link">
+                    {lang.mainPage}
+                  </Link>
+                </div>
+                <div className="foot-xaritas">
+                  <Link to="/news" className="my-link">
+                    {lang.yangiliklar}
+                  </Link>
+                </div>
+                <div className="foot-xaritas">
+                  <Link to="/galereya" className="my-link">
+                    {lang.galereya}
+                  </Link>
+                </div>
+                <div className="foot-xaritas">
+                  <Link to="/education" className="my-link">
+                    {lang.education}
+                  </Link>
+                </div>
+                <div className="foot-xaritas">
+                  <Link to="/about" className="my-link">
+                    {lang.aboutSchool}
+                  </Link>
+                </div>
               </div>
             </div>
 
@@ -38,9 +59,7 @@ export default function Footer() {
               <div className="foot-xarita"> {lang.contact} </div>
               <div className="foot-xarita-block">
                 <div className="foot-xaritas">
-                  <CiLocationOn
-                    className="foot-icon"
-                  />
+                  <CiLocationOn className="foot-icon" />
                   Amir Temur {lang.street},
                   <br />
                   Xiva, Xorazm
@@ -68,9 +87,7 @@ export default function Footer() {
                   <SiFacebook className="foot-icon" /> Facebook
                 </div>
                 <div className="foot-xaritas">
-                  <SiYoutube
-                    className="foot-icon"
-                  />
+                  <SiYoutube className="foot-icon" />
                   Youtube
                 </div>
               </div>

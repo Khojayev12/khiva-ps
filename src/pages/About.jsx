@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import SinglePage from "../components/SinglePage";
 import Photo from "../media/school.svg";
 
@@ -73,6 +74,7 @@ export default function About() {
           </p>
         </div>
       </div>
+      <Footer/>
     </SinglePage>
   );
 }

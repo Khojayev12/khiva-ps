@@ -175,7 +175,7 @@
 .news-at-home-pic:hover {
   transform: scale(1.1);
 }
-.news-home-text:hover .news-at-home-pic {
+.news-home-text:hover ~ .news-at-home-pic {
   transform: scale(1.1);
 }
 .half-news {
