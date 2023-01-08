@@ -54,17 +54,17 @@ export default function Home() {
                   <img
                     src={Photo}
                     alt=""
-                    className={pic === 0 ? "hero-photo" : "hero-photo-hide"}
+                    className={pic === 0 ? "hero-photo" : ( pic === 1? "hero-photo-hide":"hero-photo-prepare")}
                   />
                   <img
                     src={Photo2}
                     alt=""
-                    className={pic === 1 ? "hero-photo" : "hero-photo-hide"}
+                    className={pic === 1 ? "hero-photo" : ( pic === 2? "hero-photo-hide":"hero-photo-prepare")}
                   />
                   <img
                     src={Photo3}
                     alt=""
-                    className={pic === 2 ? "hero-photo" : "hero-photo-hide"}
+                    className={pic === 2 ? "hero-photo" : ( pic === 0? "hero-photo-hide":"hero-photo-prepare")}
                   />
                 </div>
                 <div className="hero-text">

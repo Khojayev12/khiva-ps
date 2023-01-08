@@ -32,13 +32,23 @@
 }
 .hero-photo-hide {
   position: absolute;
-  z-index: 3;
+  z-index: -3;
   top: 0px;
   left: 0px;
-  width: 100%;
-  height: 100%;
+  width: 70%;
+  height: 70%;
   transition: 0.5s all;
-  transform: translateX(-10000px);
+  transform: translateX(200%);
+}
+.hero-photo-prepare {
+  position: absolute;
+  z-index: -3;
+  top: 0px;
+  left: 0px;
+  width: 70%;
+  height: 70%;
+  transition: 0.5s all;
+  transform: translateX(-200%);
 }
 .hero-text {
   z-index: 5;
@@ -51,7 +61,7 @@
 .hero-title {
   font-family: "Inter";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   text-align: right;
@@ -66,6 +76,7 @@
   margin-top: 70px;
   font-size: 20px;
   line-height: 24px;
+  font-weight: 400;
 }
 .hero-pic-previous {
   top: calc(100vh - 109px);
