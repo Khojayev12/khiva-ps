@@ -37,6 +37,7 @@ function App() {
             <Route path="/news" element={<News />} />
             <Route path="/galereya" element={<Galereya />} />
             <Route path="/about" element={<About />} />
+            <Route path="/galereya" element={<Galereya />} />
             <Route path="/post/1" element={<NewsPage data={mydata} />} />
             <Route
               path="news/all"

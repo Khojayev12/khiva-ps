@@ -15,7 +15,7 @@ export default function GalereyaLanding(props) {
           : "galereya-com my-transitoin"
       }
       style={{
-        width: props.width,
+        width: isZoomed ? "100vw" : props.width,
         height: isZoomed ? "calc(100vh - 57px)" : props.height,
       }}
       onClick={handleClick}

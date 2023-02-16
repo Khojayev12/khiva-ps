@@ -384,6 +384,27 @@
   height: calc(100% - 10px);
   padding: 5px 5px;
   overflow: hidden;
+  display: inline-block;
+}
+.galereya-scoll {
+  text-align: center;
+  margin-top: 120px;
+  padding-bottom: 30px;
+  width: 90%;
+  margin-left: 5%;
+  border-radius: 15px;
+  border: 1px solid rgb(191, 191, 191);
+}
+.galereya-heading {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 31px;
+  line-height: 36px;
+  color: #000000;
 }
 .galereya-com-act {
   position: fixed;

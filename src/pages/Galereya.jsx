@@ -1,3 +1,5 @@
+import Footer from "../components/Footer";
+import GalereyaLanding from "../components/GalereyaLanding";
 import SinglePage from "../components/SinglePage";
 import GalereyaLanding from "../components/GalereyaLanding";
 import "../styles/galereya.css";
