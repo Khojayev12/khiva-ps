@@ -2,7 +2,7 @@
   width: 100%;
 }
 .hero-section {
-  width: 95%;
+  width: 95vw;
   margin-left: 2.5%;
   height: calc(100vh - 99px);
   margin-top: 79px;
@@ -14,7 +14,7 @@
 }
 .hero-photo {
   position: absolute;
-  z-index: 3;
+  z-index: -1;
   top: 0px;
   left: 0px;
   width: 100%;
@@ -22,7 +22,7 @@
   object-fit: cover;
   object-position: left;
   transition: 0.5s all;
-  transform: translateX(0);
+  transform: translateX(0) translateY(0vh);
 }
 .hero-photo2 {
   width: 100%;
@@ -38,7 +38,7 @@
   width: 70%;
   height: 70%;
   transition: 0.5s all;
-  transform: translateX(200%);
+  transform: translateX(-200%) translateY(-90vh);
 }
 .hero-photo-prepare {
   position: absolute;
@@ -48,7 +48,7 @@
   width: 70%;
   height: 70%;
   transition: 0.5s all;
-  transform: translateX(-200%);
+  transform: translateX(-200%) translateY(90vh);
 }
 .hero-text {
   z-index: 5;

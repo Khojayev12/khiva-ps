@@ -14,13 +14,7 @@ export default function Header(props) {
           <div className="header">
             <img src={Logo} alt="" className="header-logo" />
             <div className="menus">
-              <div
-                className={
-                  myRouter.pathname === "/"
-                    ? "single-menu single-menu-active"
-                    : "single-menu"
-                }
-              >
+              <div className="single-menu">
                 <Link to="/" className="my-link">
                   {lang.mainPage}
                 </Link>

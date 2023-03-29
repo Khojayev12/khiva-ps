@@ -77,18 +77,26 @@ export default function Footer() {
               <div className="foot-xarita"> {lang.social}</div>
               <div className="foot-xarita-block">
                 <div className="foot-xaritas">
-                  <SiTelegram className="foot-icon" /> Telegram
+                  <a href="https://t.me/PSinKhiva" target="_blank" className="my-link" >
+                    <SiTelegram className="foot-icon" /> Telegram
+                  </a>
                 </div>
                 <div className="foot-xaritas">
-                  <SiInstagram className="foot-icon" />
-                  Instagram
+                  <a href="https://www.instagram.com/psinkhiva/" target="_blank" className="my-link">
+                    <SiInstagram className="foot-icon" />
+                    Instagram
+                  </a>
                 </div>
                 <div className="foot-xaritas">
-                  <SiFacebook className="foot-icon" /> Facebook
+                  <a href="https://t.me/PSinKhiva" target="_blank" className="my-link">
+                    <SiFacebook className="foot-icon" /> Facebook
+                  </a>
                 </div>
                 <div className="foot-xaritas">
-                  <SiYoutube className="foot-icon" />
-                  Youtube
+                  <a href="https://t.me/PSinKhiva" target="_blank" className="my-link">
+                    <SiYoutube className="foot-icon" />
+                    Youtube
+                  </a>
                 </div>
               </div>
             </div>
