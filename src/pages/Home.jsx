@@ -1,9 +1,8 @@
-import React, { useState } from "react";
 import SinglePage from "../components/SinglePage";
 import "../styles/home.css";
 import Photo from "../media/school.svg";
-import Photo2 from "../media/school2.jpg";
-import Photo3 from "../media/school3.jpg";
+import Photo2 from "../media/school.png";
+import NewsIcon from "../media/newsIcon.svg"
 import Stem from "../media/s.svg";
 import sTem from "../media/t.svg";
 import stEm from "../media/e.svg";
@@ -14,8 +13,6 @@ import GroupIcon from "../media/Group.svg";
 import TeacherIcon from "../media/Teacher.svg";
 import HomeIcon from "../media/Home.svg";
 import FinishIcon from "../media/Finish.svg";
-import PhotoEffect from "../media/backround-effect.svg";
-import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 import NewsAtHome from "../components/NewsAtHome";
 import HonorLanding from "../components/honorLanding";
 import GalereyaLanding from "../components/GalereyaLanding";
@@ -24,25 +21,6 @@ import Footer from "../components/Footer";
 import { LangContext } from "../components/LangContext";
 
 export default function Home() {
-  //const Images = [Photo, Photo2, Photo3];
-  const [pic, setPic] = useState(0);
-
-  const changeNextPic = () => {
-    if (pic < 2) {
-      setPic(pic + 1);
-    } else {
-      setPic(0);
-    }
-  };
-
-  const changePreviousPic = () => {
-    if (pic > 0) {
-      setPic(pic - 1);
-    } else {
-      setPic(2);
-    }
-  };
-
   return (
     <SinglePage>
       <LangContext.Consumer>
@@ -50,53 +28,28 @@ export default function Home() {
           <>
             <div className="home-page">
               <div className="hero-section">
-                <div className="school-images">
-                  <img
-                    src={Photo}
-                    alt=""
-                    className={pic === 0 ? "hero-photo" : ( pic === 1? "hero-photo-hide":"hero-photo-prepare")}
-                  />
-                  <img
-                    src={Photo2}
-                    alt=""
-                    className={pic === 1 ? "hero-photo" : ( pic === 2? "hero-photo-hide":"hero-photo-prepare")}
-                  />
-                  <img
-                    src={Photo3}
-                    alt=""
-                    className={pic === 2 ? "hero-photo" : ( pic === 0? "hero-photo-hide":"hero-photo-prepare")}
-                  />
-                </div>
-                <div className="hero-text">
-                  <img src={PhotoEffect} alt="" className="hero-photo2" />
-                </div>
+                <img src={Photo2} alt="" className="hero-photo" />
                 <div className="hero-title">
-                  XIVA SHAHRIDAGI PREZIDENT MAKTABINING RASMIY WEBSAYTIGA XUSH
-                  KELIBSIZ!
-                  <div className="hero-explanation">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Eius architecto est odio, iure sapiente id accusantium quod
-                    inventore, obcaecati quam praesentium voluptates dignissimos
-                    neque fugiat facere delectus excepturi debitis aliquam!
-                  </div>
-                </div>
-                <div className="hero-pic-previous" onClick={changePreviousPic}>
-                  <FiChevronLeft />
-                </div>
-                <div className="hero-pic-next">
-                  <FiChevronRight onClick={changeNextPic} />
+                  <div className="hero-header">Bizning maqsadimiz</div>
+                  <div className="hero-opostrov" style={{marginLeft:"60px"}} >“</div>
+                  <div className="hero-text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use </div>
+                  <div className="hero-opostrov" style={{marginRight:"60px", textAlign:"end"}} >”</div>
                 </div>
               </div>
 
               <div className="news-section">
                 <div className="news-section-header">
-                  <span className="news-section-text"> {lang.lastnews} </span>
-                  <button
-                    className="barchasi-btn"
-                    style={{ marginRight: "30px" }}
-                  >
-                    {lang.all}
-                  </button>
+                  <div className="n-h-left">
+                    <img src={NewsIcon} alt="" className="n-h-icon" />
+                  </div>
+                  <div className="n-h-center">
+                    <div className="n-h-sub" >Xiva shahridagi Prezident maktabi</div>
+                    <div className="n-h-title" >News & Events</div>
+                  </div>
+                  <div className="n-h-right">
+                  <img src={NewsIcon} alt="" className="n-h-icon" style={{transform:"scaleX(-1)"}} />
+                  </div>
+                  
                 </div>
                 <div className="news-section-yangilikla">
                   <div className="half-news">
