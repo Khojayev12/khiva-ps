@@ -1,5 +1,4 @@
 import NewsSlider from "../components/NewsSlider";
-import SingleNews from "../components/SingleNews";
 import SinglePage from "../components/SinglePage";
 import NewsComponent from "../components/NewsComponent";
 import "../styles/news.css";
@@ -16,109 +15,265 @@ export default function News() {
             id="1"
             pic={Photo}
             watch="420"
+            time={"30.12.2023"}
             title="This is title of news component"
+            description="This is description of news component, This is description of news component, This is description of news component, This is description of news component, This is description of news component, This is description of news component, This is description of news component, This is description of news component, This is description of news component,This is description of news component,This is description of news component, This is description of news component, This is description of news component"
             text="This is title of news component, This is title of news component, This is title of news component, This is title of news component"
           />
           <NewsComponent
             id="1"
             pic={Photo}
             watch="420"
+            time={"30.12.2023"}
             title="This is title of news component"
+            description="This is description of news component, This is description of news component, This is description of news component"
             text="This is title of news component, This is title of news component, This is title of news component, This is title of news component"
           />
           <NewsComponent
             id="1"
             pic={Photo}
             watch="420"
+            time={"30.12.2023"}
             title="This is title of news component"
+            description="This is description of news component, This is description of news component, This is description of news component"
             text="This is title of news component, This is title of news component, This is title of news component, This is title of news component"
           />
-          <SingleNews
+          <NewsComponent
             id="1"
             pic={Photo}
             watch="420"
+            time={"30.12.2023"}
             title="This is title of news component"
+            description="This is description of news component, This is description of news component, This is description of news component"
             text="This is title of news component, This is title of news component, This is title of news component, This is title of news component"
           />
-          <SingleNews
+          <NewsComponent
             id="1"
             pic={Photo}
             watch="420"
+            time={"30.12.2023"}
             title="This is title of news component"
+            description="This is description of news component, This is description of news component, This is description of news component"
+            text="This is title of news component, This is title of news component, This is title of news component, This is title of news component"
+          />
+          <NewsComponent
+            id="1"
+            pic={Photo}
+            watch="420"
+            time={"30.12.2023"}
+            title="This is title of news component"
+            description="This is description of news component, This is description of news component, This is description of news component"
+            text="This is title of news component, This is title of news component, This is title of news component, This is title of news component"
+          />
+          <NewsComponent
+            id="1"
+            pic={Photo}
+            watch="420"
+            time={"30.12.2023"}
+            title="This is title of news component"
+            description="This is description of news component, This is description of news component, This is description of news component"
             text="This is title of news component, This is title of news component, This is title of news component, This is title of news component"
           />
         </NewsSlider>
         <NewsSlider title="Tadbirlar" path="/news/events">
-          <SingleNews
+        <NewsComponent
             id="1"
             pic={Photo}
             watch="420"
+            time={"30.12.2023"}
             title="This is title of news component"
+            description="This is description of news component, This is description of news component, This is description of news component"
             text="This is title of news component, This is title of news component, This is title of news component, This is title of news component"
           />
-          <SingleNews
+          <NewsComponent
             id="1"
             pic={Photo}
             watch="420"
+            time={"30.12.2023"}
             title="This is title of news component"
+            description="This is description of news component, This is description of news component, This is description of news component"
             text="This is title of news component, This is title of news component, This is title of news component, This is title of news component"
           />
-          <SingleNews
+          <NewsComponent
             id="1"
             pic={Photo}
             watch="420"
+            time={"30.12.2023"}
             title="This is title of news component"
+            description="This is description of news component, This is description of news component, This is description of news component"
             text="This is title of news component, This is title of news component, This is title of news component, This is title of news component"
           />
-          <SingleNews
-            pic={Photo}
+          <NewsComponent
             id="1"
+            pic={Photo}
             watch="420"
+            time={"30.12.2023"}
             title="This is title of news component"
+            description="This is description of news component, This is description of news component, This is description of news component"
             text="This is title of news component, This is title of news component, This is title of news component, This is title of news component"
           />
-          <SingleNews
-            pic={Photo}
+          <NewsComponent
             id="1"
+            pic={Photo}
             watch="420"
+            time={"30.12.2023"}
             title="This is title of news component"
+            description="This is description of news component, This is description of news component, This is description of news component"
+            text="This is title of news component, This is title of news component, This is title of news component, This is title of news component"
+          />
+          <NewsComponent
+            id="1"
+            pic={Photo}
+            watch="420"
+            time={"30.12.2023"}
+            title="This is title of news component"
+            description="This is description of news component, This is description of news component, This is description of news component"
+            text="This is title of news component, This is title of news component, This is title of news component, This is title of news component"
+          />
+          <NewsComponent
+            id="1"
+            pic={Photo}
+            watch="420"
+            time={"30.12.2023"}
+            title="This is title of news component"
+            description="This is description of news component, This is description of news component, This is description of news component"
+            text="This is title of news component, This is title of news component, This is title of news component, This is title of news component"
+          />
+          <NewsComponent
+            id="1"
+            pic={Photo}
+            watch="420"
+            time={"30.12.2023"}
+            title="This is title of news component"
+            description="This is description of news component, This is description of news component, This is description of news component"
+            text="This is title of news component, This is title of news component, This is title of news component, This is title of news component"
+          />
+          <NewsComponent
+            id="1"
+            pic={Photo}
+            watch="420"
+            time={"30.12.2023"}
+            title="This is title of news component"
+            description="This is description of news component, This is description of news component, This is description of news component"
+            text="This is title of news component, This is title of news component, This is title of news component, This is title of news component"
+          />
+          <NewsComponent
+            id="1"
+            pic={Photo}
+            watch="420"
+            time={"30.12.2023"}
+            title="This is title of news component"
+            description="This is description of news component, This is description of news component, This is description of news component"
+            text="This is title of news component, This is title of news component, This is title of news component, This is title of news component"
+          />
+          <NewsComponent
+            id="1"
+            pic={Photo}
+            watch="420"
+            time={"30.12.2023"}
+            title="This is title of news component"
+            description="This is description of news component, This is description of news component, This is description of news component"
+            text="This is title of news component, This is title of news component, This is title of news component, This is title of news component"
+          />
+          <NewsComponent
+            id="1"
+            pic={Photo}
+            watch="420"
+            time={"30.12.2023"}
+            title="This is title of news component"
+            description="This is description of news component, This is description of news component, This is description of news component"
+            text="This is title of news component, This is title of news component, This is title of news component, This is title of news component"
+          />
+          <NewsComponent
+            id="1"
+            pic={Photo}
+            watch="420"
+            time={"30.12.2023"}
+            title="This is title of news component"
+            description="This is description of news component, This is description of news component, This is description of news component"
             text="This is title of news component, This is title of news component, This is title of news component, This is title of news component"
           />
         </NewsSlider>
         <NewsSlider title="Uchrashuvlar" path="/news/meetings">
-          <SingleNews
+        <NewsComponent
             id="1"
             pic={Photo}
             watch="420"
+            time={"30.12.2023"}
             title="This is title of news component"
+            description="This is description of news component, This is description of news component, This is description of news component"
             text="This is title of news component, This is title of news component, This is title of news component, This is title of news component"
           />
-          <SingleNews
+          <NewsComponent
+            id="1"
             pic={Photo}
             watch="420"
-            id="1"
+            time={"30.12.2023"}
             title="This is title of news component"
+            description="This is description of news component, This is description of news component, This is description of news component"
             text="This is title of news component, This is title of news component, This is title of news component, This is title of news component"
           />
-          <SingleNews
+          <NewsComponent
+            id="1"
             pic={Photo}
             watch="420"
-            id="1"
+            time={"30.12.2023"}
             title="This is title of news component"
+            description="This is description of news component, This is description of news component, This is description of news component"
             text="This is title of news component, This is title of news component, This is title of news component, This is title of news component"
           />
-          <SingleNews
+          <NewsComponent
+            id="1"
             pic={Photo}
             watch="420"
-            id="1"
+            time={"30.12.2023"}
             title="This is title of news component"
+            description="This is description of news component, This is description of news component, This is description of news component"
             text="This is title of news component, This is title of news component, This is title of news component, This is title of news component"
           />
-          <SingleNews
+          <NewsComponent
+            id="1"
             pic={Photo}
             watch="420"
-            id="1"
+            time={"30.12.2023"}
             title="This is title of news component"
+            description="This is description of news component, This is description of news component, This is description of news component"
+            text="This is title of news component, This is title of news component, This is title of news component, This is title of news component"
+          />
+          <NewsComponent
+            id="1"
+            pic={Photo}
+            watch="420"
+            time={"30.12.2023"}
+            title="This is title of news component"
+            description="This is description of news component, This is description of news component, This is description of news component"
+            text="This is title of news component, This is title of news component, This is title of news component, This is title of news component"
+          />
+          <NewsComponent
+            id="1"
+            pic={Photo}
+            watch="420"
+            time={"30.12.2023"}
+            title="This is title of news component"
+            description="This is description of news component, This is description of news component, This is description of news component"
+            text="This is title of news component, This is title of news component, This is title of news component, This is title of news component"
+          />
+          <NewsComponent
+            id="1"
+            pic={Photo}
+            watch="420"
+            time={"30.12.2023"}
+            title="This is title of news component"
+            description="This is description of news component, This is description of news component, This is description of news component"
+            text="This is title of news component, This is title of news component, This is title of news component, This is title of news component"
+          />
+          <NewsComponent
+            id="1"
+            pic={Photo}
+            watch="420"
+            time={"30.12.2023"}
+            title="This is title of news component"
+            description="This is description of news component, This is description of news component, This is description of news component"
             text="This is title of news component, This is title of news component, This is title of news component, This is title of news component"
           />
         </NewsSlider>

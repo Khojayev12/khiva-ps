@@ -2,25 +2,29 @@ import SinglePage from "../components/SinglePage";
 import "../styles/home.css";
 import Photo from "../media/school.svg";
 import Photo2 from "../media/school.png";
-import NewsIcon from "../media/newsIcon.svg"
+import NewsIcon from "../media/newsIcon.svg";
 import Stem from "../media/s.svg";
 import sTem from "../media/t.svg";
 import stEm from "../media/e.svg";
 import steM from "../media/m.svg";
 import STEM from "../media/stem.svg";
+import { GoChevronRight } from "react-icons/go";
 
 import GroupIcon from "../media/Group.svg";
 import TeacherIcon from "../media/Teacher.svg";
 import HomeIcon from "../media/Home.svg";
 import FinishIcon from "../media/Finish.svg";
-import NewsAtHome from "../components/NewsAtHome";
 import HonorLanding from "../components/honorLanding";
 import GalereyaLanding from "../components/GalereyaLanding";
 import SchoolStaffLanding from "../components/SchoolStaff_Landing";
 import Footer from "../components/Footer";
 import { LangContext } from "../components/LangContext";
+import NewsComponent from "../components/NewsComponent";
 
 export default function Home() {
+  const NewsScoll = () => {
+    document.getElementById("news-scroll").scrollLeft += 300;
+  };
   return (
     <SinglePage>
       <LangContext.Consumer>
@@ -31,9 +35,24 @@ export default function Home() {
                 <img src={Photo2} alt="" className="hero-photo" />
                 <div className="hero-title">
                   <div className="hero-header">Bizning maqsadimiz</div>
-                  <div className="hero-opostrov" style={{marginLeft:"60px"}} >“</div>
-                  <div className="hero-text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use </div>
-                  <div className="hero-opostrov" style={{marginRight:"60px", textAlign:"end"}} >”</div>
+                  <div className="hero-opostrov" style={{ marginLeft: "60px" }}>
+                    “
+                  </div>
+                  <div className="hero-text">
+                    It is a long established fact that a reader will be
+                    distracted by the readable content of a page when looking at
+                    its layout. The point of using Lorem Ipsum is that it has a
+                    more-or-less normal distribution of letters, as opposed to
+                    using 'Content here, content here', making it look like
+                    readable English. Many desktop publishing packages and web
+                    page editors now use{" "}
+                  </div>
+                  <div
+                    className="hero-opostrov"
+                    style={{ marginRight: "60px", textAlign: "end" }}
+                  >
+                    ”
+                  </div>
                 </div>
               </div>
 
@@ -43,52 +62,133 @@ export default function Home() {
                     <img src={NewsIcon} alt="" className="n-h-icon" />
                   </div>
                   <div className="n-h-center">
-                    <div className="n-h-sub" >Xiva shahridagi Prezident maktabi</div>
-                    <div className="n-h-title" >News & Events</div>
+                    <div className="n-h-sub">
+                      Xiva shahridagi Prezident maktabi
+                    </div>
+                    <div className="n-h-title">News & Events</div>
                   </div>
                   <div className="n-h-right">
-                  <img src={NewsIcon} alt="" className="n-h-icon" style={{transform:"scaleX(-1)"}} />
-                  </div>
-                  
-                </div>
-                <div className="news-section-yangilikla">
-                  <div className="half-news">
-                    <NewsAtHome
-                      pic={Photo}
-                      width="100%"
-                      text="iserbgiuergbiuserhfuisegisheioubsie ubviserbvisuebrvisuebrvius briguseriub"
+                    <img
+                      src={NewsIcon}
+                      alt=""
+                      className="n-h-icon"
+                      style={{ transform: "scaleX(-1)" }}
                     />
                   </div>
-                  <div className="half-news" style={{ position: "relative" }}>
-                    <div style={{ height: "50%", marginBottom: "10px" }}>
-                      <NewsAtHome
-                        pic={Photo}
-                        width="98.2%"
-                        text="iserbgiuergbiuserhfuisegisheiou bsieubviserbvisuebrvisu ebrviusbriguseriub"
-                      />
-                    </div>
-                    <div
-                      style={{
-                        height: "calc(50% - 10px)",
-                        display: "flex",
-                        justifyContent: "space-between",
-                      }}
-                    >
-                      <div className="half-news">
-                        <NewsAtHome
-                          pic={Photo}
-                          width="99%"
-                          text="iserbgiuer gbiuserhfuise gisheioubsieubvis erbvisuebrvisuebrv iusbriguseriub"
-                        />
-                      </div>
-                      <div className="half-news">
-                        <NewsAtHome
-                          pic={Photo}
-                          width="99%"
-                          text="is erbgiuergbiuserhfuisegisheioubsieubvis erbvisuebrvi suebrviusb riguseriu b"
-                        />
-                      </div>
-                    </div>
+                </div>
+                <div className="news-section-yangilikla">
+                  <div className="newas-next-btn" onClick={NewsScoll}>
+                    <GoChevronRight className="newas-next-icon" />
+                  </div>
+                  <div className="home-n-slider" id="news-scroll">
+                    <NewsComponent
+                      id="1"
+                      pic={Photo}
+                      watch="420"
+                      time={"30.12.2023"}
+                      title="This is title of news component"
+                      description="This is description of news component, This is description of news component, This is description of news component"
+                      text="This is title of news component, This is title of news component, This is title of news component, This is title of news component"
+                    />
+                    <NewsComponent
+                      id="1"
+                      pic={Photo}
+                      watch="420"
+                      time={"30.12.2023"}
+                      title="This is title of news component"
+                      description="This is description of news component, This is description of news component, This is description of news component"
+                      text="This is title of news component, This is title of news component, This is title of news component, This is title of news component"
+                    />
+                    <NewsComponent
+                      id="1"
+                      pic={Photo}
+                      watch="420"
+                      time={"30.12.2023"}
+                      title="This is title of news component"
+                      description="This is description of news component, This is description of news component, This is description of news component"
+                      text="This is title of news component, This is title of news component, This is title of news component, This is title of news component"
+                    />
+                    <NewsComponent
+                      id="1"
+                      pic={Photo}
+                      watch="420"
+                      time={"30.12.2023"}
+                      title="This is title of news component"
+                      description="This is description of news component, This is description of news component, This is description of news component"
+                      text="This is title of news component, This is title of news component, This is title of news component, This is title of news component"
+                    />
+                    <NewsComponent
+                      id="1"
+                      pic={Photo}
+                      watch="420"
+                      time={"30.12.2023"}
+                      title="This is title of news component"
+                      description="This is description of news component, This is description of news component, This is description of news component"
+                      text="This is title of news component, This is title of news component, This is title of news component, This is title of news component"
+                    />
+                    <NewsComponent
+                      id="1"
+                      pic={Photo}
+                      watch="420"
+                      time={"30.12.2023"}
+                      title="This is title of news component"
+                      description="This is description of news component, This is description of news component, This is description of news component"
+                      text="This is title of news component, This is title of news component, This is title of news component, This is title of news component"
+                    />
+                    <NewsComponent
+                      id="1"
+                      pic={Photo}
+                      watch="420"
+                      time={"30.12.2023"}
+                      title="This is title of news component"
+                      description="This is description of news component, This is description of news component, This is description of news component"
+                      text="This is title of news component, This is title of news component, This is title of news component, This is title of news component"
+                    />
+                    <NewsComponent
+                      id="1"
+                      pic={Photo}
+                      watch="420"
+                      time={"30.12.2023"}
+                      title="This is title of news component"
+                      description="This is description of news component, This is description of news component, This is description of news component"
+                      text="This is title of news component, This is title of news component, This is title of news component, This is title of news component"
+                    />
+                    <NewsComponent
+                      id="1"
+                      pic={Photo}
+                      watch="420"
+                      time={"30.12.2023"}
+                      title="This is title of news component"
+                      description="This is description of news component, This is description of news component, This is description of news component"
+                      text="This is title of news component, This is title of news component, This is title of news component, This is title of news component"
+                    />
+                    <NewsComponent
+                      id="1"
+                      pic={Photo}
+                      watch="420"
+                      time={"30.12.2023"}
+                      title="This is title of news component"
+                      description="This is description of news component, This is description of news component, This is description of news component"
+                      text="This is title of news component, This is title of news component, This is title of news component, This is title of news component"
+                    />
+                    <NewsComponent
+                      id="1"
+                      pic={Photo}
+                      watch="420"
+                      time={"30.12.2023"}
+                      title="This is title of news component"
+                      description="This is description of news component, This is description of news component, This is description of news component"
+                      text="This is title of news component, This is title of news component, This is title of news component, This is title of news component"
+                    />
+                    <NewsComponent
+                      id="1"
+                      pic={Photo}
+                      watch="420"
+                      time={"30.12.2023"}
+                      title="This is title of news component"
+                      description="This is description of news component, This is description of news component, This is description of news component"
+                      text="This is title of news component, This is title of news component, This is title of news component, This is title of news component"
+                    />
                   </div>
                 </div>
               </div>

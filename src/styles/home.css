@@ -136,12 +136,9 @@
   cursor: pointer;
 }
 .news-section-yangilikla {
-  width: 90%;
+  width: 100%;
   margin-top: 10px;
-  margin-left: 5%;
-  height: calc(100% - 92px);
-  display: flex;
-  justify-content: space-between;
+  position: relative;
 }
 
 .news-at-home {
