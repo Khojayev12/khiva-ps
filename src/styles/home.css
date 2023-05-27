@@ -58,7 +58,7 @@
 .news-section {
   width: 100%;
   margin-top: 30px;
-  height: calc(100vh - 57px);
+  height: calc(600px);
 }
 
 .news-section-header {
@@ -436,72 +436,97 @@
 
 .school-staff {
   width: 100%;
+  position: relative;
 }
 .staff-title {
+  margin-bottom: 20px;
   margin-top: 50px;
+  font-family: "Inter";
   font-style: normal;
-  font-weight: 500;
-  font-size: 26px;
+  font-weight: 400;
+  font-size: 30px;
   line-height: 36px;
+  text-transform: uppercase;
   text-align: center;
   color: #000000;
 }
 
 .staff-landing {
-  width: 400px;
-  height: 450px;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.staf-pic-div {
+  display: inline-block;
+  width: 250px;
+  text-align: left;
   position: relative;
+}
+.staff-info-line{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: block;
+  width: 90%;
+  margin-left: 5%;
+  border-bottom: 1px solid #1B3975;
 }
 .lan-staf-pic {
   position: absolute;
-  left: 50px;
   top: 0px;
+  left: 0px;
   z-index: 20;
   object-fit: cover;
   object-position: center;
-  width: 300px;
-  height: 300px;
+  width: 210px;
+  height: 280px;
   border: none;
-  border-radius: 150px;
-  box-shadow: 5px 0px 1px 5px #1b3975;
 }
-.staff-flex {
-  height: unset;
-  width: 100%;
-  margin-top: 10px;
-  display: flex;
-  justify-content: space-around;
-}
-
-.lan-staf-div {
+.staff-pic-shadow {
+  width: 210px;
+  height: 280px;
   position: absolute;
-  top: 150px;
-  left: 0px;
-  width: 400px;
-  border: 1px solid rgba(0, 0, 0, 0.25);
-  box-shadow: 5px 5px 1px 5px #1b3975;
-  border-radius: 30px;
-  background-color: white;
+  top: 15px;
+  left: 15px;
+  z-index: 0;
+  background-color: #1b3975;
 }
-
-.lan-staf-name {
-  margin-top: 170px;
+.staf-info-div {
+  display: inline-block;
+  width: calc(100% - 250px);
+  font-family: "Inter";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
+}
+.staff-name {
   font-size: 30px;
   line-height: 36px;
-  text-align: center;
-  text-transform: uppercase;
   color: #000000;
 }
-.lan-staf-status {
-  font-style: normal;
-  font-weight: 500;
+.staff-status {
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  opacity: 0.7;
+}
+.staff-contact {
   font-size: 20px;
   line-height: 24px;
-  text-align: center;
   color: #000000;
-  margin-bottom: 30px;
+  opacity: 0.7;
+}
+.staff-text {
+  margin-top: 50px;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+.staff-flex {
+  width: 85%;
+  margin-left: 7.5%;
+}
+.staff-all {
+  top: 787px !important;
 }
 
 .all-staff {

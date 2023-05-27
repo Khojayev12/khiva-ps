@@ -20,10 +20,14 @@ import SchoolStaffLanding from "../components/SchoolStaff_Landing";
 import Footer from "../components/Footer";
 import { LangContext } from "../components/LangContext";
 import NewsComponent from "../components/NewsComponent";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   const NewsScoll = () => {
-    document.getElementById("news-scroll").scrollLeft += 300;
+    document.getElementById("news-scroll").scrollTo({
+      left: 2000,
+      behavior: "smooth",
+    });
   };
   return (
     <SinglePage>
@@ -80,43 +84,11 @@ export default function Home() {
                   <div className="newas-next-btn" onClick={NewsScoll}>
                     <GoChevronRight className="newas-next-icon" />
                   </div>
+                  <hr className="news-all-line" />
+                  <Link to="/news">
+                    <button className="news-all">Barcha yangiliklar</button>
+                  </Link>
                   <div className="home-n-slider" id="news-scroll">
-                    <NewsComponent
-                      id="1"
-                      pic={Photo}
-                      watch="420"
-                      time={"30.12.2023"}
-                      title="This is title of news component"
-                      description="This is description of news component, This is description of news component, This is description of news component"
-                      text="This is title of news component, This is title of news component, This is title of news component, This is title of news component"
-                    />
-                    <NewsComponent
-                      id="1"
-                      pic={Photo}
-                      watch="420"
-                      time={"30.12.2023"}
-                      title="This is title of news component"
-                      description="This is description of news component, This is description of news component, This is description of news component"
-                      text="This is title of news component, This is title of news component, This is title of news component, This is title of news component"
-                    />
-                    <NewsComponent
-                      id="1"
-                      pic={Photo}
-                      watch="420"
-                      time={"30.12.2023"}
-                      title="This is title of news component"
-                      description="This is description of news component, This is description of news component, This is description of news component"
-                      text="This is title of news component, This is title of news component, This is title of news component, This is title of news component"
-                    />
-                    <NewsComponent
-                      id="1"
-                      pic={Photo}
-                      watch="420"
-                      time={"30.12.2023"}
-                      title="This is title of news component"
-                      description="This is description of news component, This is description of news component, This is description of news component"
-                      text="This is title of news component, This is title of news component, This is title of news component, This is title of news component"
-                    />
                     <NewsComponent
                       id="1"
                       pic={Photo}
@@ -283,36 +255,20 @@ export default function Home() {
                     pic={Photo}
                     name="Ism Familiya"
                     status="Lavozim"
+                    contact="name@gmail.com"
+                    text="Mr. Myles Beaupre was born and raised in Thunder Bay, Ontario, Canada. He started teaching at Queen Elizabeth District High School in Sioux Lookout, ON before moving to the United States to attend the University of Notre Dame. Since moving to Memphis in 2011, Mr. Beaupre has taught with the Achievement School District, Southwind High School and, since 2014, at Collierville High School. At CHS, he has taught history and served as both Assistant and Head Track Coach, Instructional Coach, and Support Team Leader."
                   />
                   <SchoolStaffLanding
                     pic={Photo}
                     name="Ism Familiya"
                     status="Lavozim"
+                    contact="name@gmail.com"
+                    text="Mr. Myles Beaupre was born and raised in Thunder Bay, Ontario, Canada. He started teaching at Queen Elizabeth District High School in Sioux Lookout, ON before moving to the United States to attend the University of Notre Dame. Since moving to Memphis in 2011, Mr. Beaupre has taught with the Achievement School District, Southwind High School and, since 2014, at Collierville High School. At CHS, he has taught history and served as both Assistant and Head Track Coach, Instructional Coach, and Support Team Leader."
                   />
                 </div>
-
-                <div className="staff-flex">
-                  <SchoolStaffLanding
-                    pic={Photo}
-                    name="Ism Familiya"
-                    status="Lavozim"
-                  />
-                  <SchoolStaffLanding
-                    pic={Photo}
-                    name="Ism Familiya"
-                    status="Lavozim"
-                  />
-                  <SchoolStaffLanding
-                    pic={Photo}
-                    name="Ism Familiya"
-                    status="Lavozim"
-                  />
-                </div>
-                <div className="staff-flex">
-                  <button className="barchasi-btn all-staff">
-                    Barcha xodimlar
-                  </button>
-                </div>
+                  <Link to="/administration">
+                    <button className="news-all staff-all">Barcha xodimlar</button>
+                  </Link>
               </div>
 
               <div className="educatoin">
