@@ -232,9 +232,6 @@ export default function Home() {
               <div className="galereya">
                 <div className="galereya-header">
                   <div className="galereya-title">Galereya</div>
-                  <button className="barchasi-btn all-galereya">
-                    Barchasi
-                  </button>
                 </div>
                 <div className="galereya-show">
                   <div className="galereya-big">
@@ -246,6 +243,10 @@ export default function Home() {
                     <GalereyaLanding width="100%" height="33%" pic={Photo} />
                   </div>
                 </div>
+                <hr className="news-all-line" />
+                <Link to="/galereya">
+                  <button className="news-all">Barchasi</button>
+                </Link>
               </div>
 
               <div className="school-staff">
@@ -266,9 +267,11 @@ export default function Home() {
                     text="Mr. Myles Beaupre was born and raised in Thunder Bay, Ontario, Canada. He started teaching at Queen Elizabeth District High School in Sioux Lookout, ON before moving to the United States to attend the University of Notre Dame. Since moving to Memphis in 2011, Mr. Beaupre has taught with the Achievement School District, Southwind High School and, since 2014, at Collierville High School. At CHS, he has taught history and served as both Assistant and Head Track Coach, Instructional Coach, and Support Team Leader."
                   />
                 </div>
-                  <Link to="/administration">
-                    <button className="news-all staff-all">Barcha xodimlar</button>
-                  </Link>
+                <Link to="/administration">
+                  <button className="news-all staff-all">
+                    Barcha xodimlar
+                  </button>
+                </Link>
               </div>
 
               <div className="educatoin">

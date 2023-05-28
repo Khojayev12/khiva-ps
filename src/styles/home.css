@@ -19,7 +19,7 @@
 .hero-title {
   position: absolute;
   left: calc(50% - 491.5px);
-  top: 131px;
+  top: calc(50vh - 45px - 176.5px);
   width: 983px;
   height: 353px;
   border: none;
@@ -315,6 +315,13 @@
 .galereya {
   width: 100%;
   height: calc(100vh - 57px);
+  position: relative;
+}
+.galereya .news-all-line {
+  top: calc(100vh - 58px) !important;
+}
+.galereya .news-all {
+  top: calc(100vh - 70px) !important;
 }
 .galereya-header {
   width: 100%;
@@ -339,8 +346,8 @@
 .galereya-show {
   display: flex;
   justify-content: space-between;
-  width: 90%;
-  margin-left: 5%;
+  width: 85%;
+  margin-left: 7.5%;
   margin-top: 10px;
   height: calc(100% - 76px);
 }
@@ -463,13 +470,13 @@
   text-align: left;
   position: relative;
 }
-.staff-info-line{
+.staff-info-line {
   margin-top: 50px;
   margin-bottom: 50px;
   display: block;
   width: 90%;
   margin-left: 5%;
-  border-bottom: 1px solid #1B3975;
+  border-bottom: 1px solid #1b3975;
 }
 .lan-staf-pic {
   position: absolute;

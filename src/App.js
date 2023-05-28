@@ -11,6 +11,7 @@ import Photo from "./media/school.svg";
 import NewsPage from "./pages/NewsPage";
 import About from "./pages/About";
 import Galereya from "./pages/Galereya";
+import Administration from "./pages/Administration";
 
 function App() {
   const [lang, setLang] = useState(languages.uz);
@@ -19,14 +20,13 @@ function App() {
       duration: 1000,
     });
   }, []);
-  const mydata = 
-    {
-      photos: [Photo, Photo],
-      date: "12.11.2022",
-      watches: "310",
-      title: "My title 123",
-      text: "lorem impsum lorem impsum lorem impsum lorem impsum lorem impsum lorem impsum",
-    };
+  const mydata = {
+    photos: [Photo, Photo],
+    date: "12.11.2022",
+    watches: "310",
+    title: "My title 123",
+    text: "lorem impsum lorem impsum lorem impsum lorem impsum lorem impsum lorem impsum",
+  };
   return (
     <div className="App">
       <LangContext.Provider value={lang}>
@@ -37,6 +37,7 @@ function App() {
             <Route path="/news" element={<News />} />
             <Route path="/galereya" element={<Galereya />} />
             <Route path="/about" element={<About />} />
+            <Route path="/administration" element={<Administration />} />
             <Route path="/galereya" element={<Galereya />} />
             <Route path="/post/1" element={<NewsPage data={mydata} />} />
             <Route
