@@ -9,6 +9,7 @@ import stEm from "../media/e.svg";
 import steM from "../media/m.svg";
 import STEM from "../media/stem.svg";
 import { GoChevronRight } from "react-icons/go";
+import { IoSchoolSharp } from "react-icons/io5";
 
 import GroupIcon from "../media/Group.svg";
 import TeacherIcon from "../media/Teacher.svg";
@@ -166,67 +167,100 @@ export default function Home() {
               </div>
 
               <div className="honors-section">
-                <div className="honors-title">{lang.ouHonors}</div>
-                <div className="honor-landing-blocks">
-                  <HonorLanding
-                    pic={Photo}
-                    num="48"
-                    text="Bitiruvchi"
-                    icon={GroupIcon}
-                  />
-                  <HonorLanding
-                    pic={Photo}
-                    num="48"
-                    text="Bitiruvchi"
-                    icon={TeacherIcon}
-                  />
-                  <HonorLanding
-                    pic={Photo}
-                    num="48"
-                    text="Bitiruvchi"
-                    icon={HomeIcon}
-                  />
-                  <HonorLanding
-                    pic={Photo}
-                    num="48"
-                    text="Bitiruvchi"
-                    icon={FinishIcon}
-                  />
+                <div className="hon-head">
+                  <div className="hon-head-line"></div>
+                  <div className="hon-headaer">Quick facts about us</div>
+                  <div className="hon-head-line"></div>
                 </div>
-                <div className="main-honors">
-                  <div className="main-honor">
-                    <div className="main-honor-pic">
-                      <img src={Photo} alt="" className="main-honor-photo" />
+                <div className="hon-trio">
+                  <div className="hon-quad" data-aos="flip-up">
+                    <div className="hon-quad-round">
+                      <IoSchoolSharp className="hon-quad-round-icon" />
                     </div>
-                    <div className="main-honor-text">
-                      <div className="main-honor-title">Masharipov Azizbek</div>
-                      <div className="main-honor-definition">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Culpa architecto neque voluptates quis, inventore
-                        accusantium eligendi suscipit modi non
-                      </div>
+                    <div className="hon-quad-title">
+                      <div className="hon-quad-num">100%</div>
+                      <div className="hon-quad-def">Graduation rate</div>
                     </div>
                   </div>
-                  <div className="main-honor">
-                    <div className="main-honor-pic">
-                      <img src={Photo} alt="" className="main-honor-photo" />
+                  <div className="hon-quad" data-aos="flip-up">
+                    <div className="hon-quad-round">
+                      <IoSchoolSharp className="hon-quad-round-icon" />
                     </div>
-                    <div className="main-honor-text">
-                      <div className="main-honor-title">Abror Niyazmetov</div>
-                      <div className="main-honor-definition">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Culpa architecto neque voluptates quis, inventore
-                        accusantium eligendi suscipit modi non
-                      </div>
+                    <div className="hon-quad-title">
+                      <div className="hon-quad-num">100%</div>
+                      <div className="hon-quad-def">Graduation rate</div>
+                    </div>
+                  </div>
+                  <div className="hon-quad" data-aos="flip-up">
+                    <div className="hon-quad-round">
+                      <IoSchoolSharp className="hon-quad-round-icon" />
+                    </div>
+                    <div className="hon-quad-title">
+                      <div className="hon-quad-num">100%</div>
+                      <div className="hon-quad-def">Graduation rate</div>
+                    </div>
+                  </div>
+                  <div className="hon-quad" data-aos="flip-up">
+                    <div className="hon-quad-round">
+                      <IoSchoolSharp className="hon-quad-round-icon" />
+                    </div>
+                    <div className="hon-quad-title">
+                      <div className="hon-quad-num">100%</div>
+                      <div className="hon-quad-def">Graduation rate</div>
                     </div>
                   </div>
                 </div>
-                <button
-                  className="barchasi-btn all-honors-btn"
-                  style={{ width: "250px" }}
+                <div
+                  className="hon-trio"
+                  style={{ textAlign: "center" }}
+                  data-aos="flip-up"
                 >
-                  {lang.allHonors}
-                </button>
+                  <div className="hon-quad-round-big">
+                    <IoSchoolSharp className="hon-quad-round-icon-big" />
+                  </div>
+                  <div className="hon-quad-title">
+                    <div className="hon-quad-num">100%</div>
+                    <div className="hon-quad-def">Graduation rate</div>
+                  </div>
+                </div>
+                <div className="hon-trio">
+                  <div className="hon-quad" data-aos="flip-up">
+                    <div className="hon-quad-round">
+                      <IoSchoolSharp className="hon-quad-round-icon" />
+                    </div>
+                    <div className="hon-quad-title">
+                      <div className="hon-quad-num">100%</div>
+                      <div className="hon-quad-def">Graduation rate</div>
+                    </div>
+                  </div>
+                  <div className="hon-quad" data-aos="flip-up">
+                    <div className="hon-quad-round">
+                      <IoSchoolSharp className="hon-quad-round-icon" />
+                    </div>
+                    <div className="hon-quad-title">
+                      <div className="hon-quad-num">100%</div>
+                      <div className="hon-quad-def">Graduation rate</div>
+                    </div>
+                  </div>
+                  <div className="hon-quad" data-aos="flip-up">
+                    <div className="hon-quad-round">
+                      <IoSchoolSharp className="hon-quad-round-icon" />
+                    </div>
+                    <div className="hon-quad-title">
+                      <div className="hon-quad-num">100%</div>
+                      <div className="hon-quad-def">Graduation rate</div>
+                    </div>
+                  </div>
+                  <div className="hon-quad" data-aos="flip-up">
+                    <div className="hon-quad-round">
+                      <IoSchoolSharp className="hon-quad-round-icon" />
+                    </div>
+                    <div className="hon-quad-title">
+                      <div className="hon-quad-num">100%</div>
+                      <div className="hon-quad-def">Graduation rate</div>
+                    </div>
+                  </div>
+                </div>
               </div>
 
               <div className="galereya">
