@@ -11,8 +11,12 @@ import Footer from "../components/Footer";
 import { LangContext } from "../components/LangContext";
 import NewsComponent from "../components/NewsComponent";
 import { Link } from "react-router-dom";
+import "../styles/education.css";
+import Cambridge from "../media/camb_logo.svg";
+import { useState } from "react";
 
 export default function Home() {
+  const [eduLevel, setEduLevel] = useState(1);
   const NewsScoll = () => {
     document.getElementById("news-scroll").scrollTo({
       left: 2000,
@@ -154,6 +158,82 @@ export default function Home() {
                       description="This is description of news component, This is description of news component, This is description of news component"
                       text="This is title of news component, This is title of news component, This is title of news component, This is title of news component"
                     />
+                  </div>
+                </div>
+              </div>
+
+              <div className="education">
+                <div className="edu-header">
+                  <hr className="edu-head-line" />
+                  <div className="edu-head-title">Education system</div>
+                </div>
+                <div className="edu-body">
+                  <div className="edu-menu">
+                    <div className="edu-menu-logo">
+                      <img src={Cambridge} className="edu-menu-img" alt="" />
+                    </div>
+                    <div
+                      className={
+                        eduLevel === 1
+                          ? "edu-sub-menu edu-sub-menu-active"
+                          : "edu-sub-menu"
+                      }
+                      onClick={() => {
+                        setEduLevel(1);
+                      }}
+                    >
+                      Overall
+                    </div>
+                    <div
+                      className={
+                        eduLevel === 2
+                          ? "edu-sub-menu edu-sub-menu-active"
+                          : "edu-sub-menu"
+                      }
+                      onClick={() => {
+                        setEduLevel(2);
+                      }}
+                    >
+                      A level
+                    </div>
+                    <div
+                      className={
+                        eduLevel === 3
+                          ? "edu-sub-menu edu-sub-menu-active"
+                          : "edu-sub-menu"
+                      }
+                      onClick={() => {
+                        setEduLevel(3);
+                      }}
+                    >
+                      As level
+                    </div>
+                    <div
+                      className={
+                        eduLevel === 4
+                          ? "edu-sub-menu edu-sub-menu-active"
+                          : "edu-sub-menu"
+                      }
+                      onClick={() => {
+                        setEduLevel(4);
+                      }}
+                    >
+                      IGCSE
+                    </div>
+                  </div>
+                  <div className="edu-menu-info">
+                    {eduLevel === 1
+                      ? "1At Presidential School, the A-Level system is designed to empower students with a comprehensive and rigorous education that fosters critical thinking, analytical skills, and a deep understanding of various subjects. The A-Level curriculum at Presidential School emphasizes academic excellence, personal growth, and holistic development. The dedicated and highly qualified faculty members provide personalized guidance and support, encouraging students to explore their passions and excel in their chosen fields. With a focus on interactive learning, research projects, and real-world applications, the A-Level system at Presidential School equips students with the knowledge and skills necessary to succeed in their academic pursuits and beyond."
+                      : ""}
+                    {eduLevel === 2
+                      ? "2At Presidential School, the A-Level system is designed to empower students with a comprehensive and rigorous education that fosters critical thinking, analytical skills, and a deep understanding of various subjects. The A-Level curriculum at Presidential School emphasizes academic excellence, personal growth, and holistic development. The dedicated and highly qualified faculty members provide personalized guidance and support, encouraging students to explore their passions and excel in their chosen fields. With a focus on interactive learning, research projects, and real-world applications, the A-Level system at Presidential School equips students with the knowledge and skills necessary to succeed in their academic pursuits and beyond."
+                      : ""}
+                    {eduLevel === 3
+                      ? "3At Presidential School, the A-Level system is designed to empower students with a comprehensive and rigorous education that fosters critical thinking, analytical skills, and a deep understanding of various subjects. The A-Level curriculum at Presidential School emphasizes academic excellence, personal growth, and holistic development. The dedicated and highly qualified faculty members provide personalized guidance and support, encouraging students to explore their passions and excel in their chosen fields. With a focus on interactive learning, research projects, and real-world applications, the A-Level system at Presidential School equips students with the knowledge and skills necessary to succeed in their academic pursuits and beyond."
+                      : ""}
+                    {eduLevel === 4
+                      ? "4At Presidential School, the A-Level system is designed to empower students with a comprehensive and rigorous education that fosters critical thinking, analytical skills, and a deep understanding of various subjects. The A-Level curriculum at Presidential School emphasizes academic excellence, personal growth, and holistic development. The dedicated and highly qualified faculty members provide personalized guidance and support, encouraging students to explore their passions and excel in their chosen fields. With a focus on interactive learning, research projects, and real-world applications, the A-Level system at Presidential School equips students with the knowledge and skills necessary to succeed in their academic pursuits and beyond."
+                      : ""}
                   </div>
                 </div>
               </div>

@@ -42,6 +42,7 @@
   overflow-x: scroll;
   margin-left: 7.5%;
   height: 400px;
+  box-shadow: 0px 0px 80px 20px rgba(0, 0, 0, 0.2);
 }
 .news-all {
   border: none;
@@ -84,6 +85,7 @@
   cursor: pointer;
   width: 250px;
   height: 400px;
+  box-shadow: 0px 0px 80px 20px rgba(0, 0, 0, 0.2);
 }
 .home-n-slider .s-news {
   margin: 0px;
@@ -139,7 +141,7 @@
 .s-news-info {
   transition: all 0.4s;
   z-index: 1000;
-  background-color: rgb(193, 193, 193);
+  background-color: white;
   position: absolute;
   height: 160px;
   left: 0px;
