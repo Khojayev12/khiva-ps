@@ -3,19 +3,8 @@ import "../styles/home.css";
 import Photo from "../media/school.svg";
 import Photo2 from "../media/school.png";
 import NewsIcon from "../media/newsIcon.svg";
-import Stem from "../media/s.svg";
-import sTem from "../media/t.svg";
-import stEm from "../media/e.svg";
-import steM from "../media/m.svg";
-import STEM from "../media/stem.svg";
 import { GoChevronRight } from "react-icons/go";
 import { IoSchoolSharp } from "react-icons/io5";
-
-import GroupIcon from "../media/Group.svg";
-import TeacherIcon from "../media/Teacher.svg";
-import HomeIcon from "../media/Home.svg";
-import FinishIcon from "../media/Finish.svg";
-import HonorLanding from "../components/honorLanding";
 import GalereyaLanding from "../components/GalereyaLanding";
 import SchoolStaffLanding from "../components/SchoolStaff_Landing";
 import Footer from "../components/Footer";
@@ -81,7 +70,10 @@ export default function Home() {
                     />
                   </div>
                 </div>
-                <div className="news-section-yangilikla">
+                <div
+                  className="news-section-yangilikla"
+                  data-aos="zoom-in-down"
+                >
                   <div className="newas-next-btn" onClick={NewsScoll}>
                     <GoChevronRight className="newas-next-icon" />
                   </div>
@@ -306,23 +298,6 @@ export default function Home() {
                     Barcha xodimlar
                   </button>
                 </Link>
-              </div>
-
-              <div className="educatoin">
-                <div className="edu-title">Ta'lim tizimi</div>
-                <img src={Stem} alt="" className="stemS" />
-                <img src={sTem} alt="" className="stemT" />
-                <img src={stEm} alt="" className="stemE" />
-                <img src={steM} alt="" className="stemM" />
-                <img src={STEM} alt="" className="stem" />
-                <div className="stem-text">
-                  Science, technology, engineering, and mathematics is a broad
-                  term used to group together these academic disciplines. This
-                  term is typically used to address an education policy or
-                  curriculum choices in schools. It has implications for
-                  workforce development, national security concerns and
-                  immigration policy.
-                </div>
               </div>
             </div>
             <Footer />

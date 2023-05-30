@@ -3,17 +3,17 @@ import "../styles/header.css";
 import Logo from "../media/Logo.svg";
 import LangPanel from "./LangPanel";
 import { LangContext } from "./LangContext";
-import { Link, useLocation } from "react-router-dom";
-import { HiMenu } from "react-icons/hi";
+import { Link } from "react-router-dom";
 
 export default function Header(props) {
-  const myRouter = useLocation();
   return (
     <LangContext.Consumer>
       {(lang) => (
         <>
           <div className="header">
-            <img src={Logo} alt="" className="header-logo" />
+            <Link to="/">
+              <img src={Logo} alt="" className="header-logo" />
+            </Link>
             <div className="menus">
               <div className="single-menu">
                 <Link to="/" className="my-link">
