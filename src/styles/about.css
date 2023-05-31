@@ -1,0 +1,61 @@
+.image-holder {
+  width: 40%;
+  transform-origin: 0 100%;
+  transform: skewX(-30deg);
+  overflow: hidden;
+  background-color: red;
+  display: inline-block;
+  margin-left: -50px;
+}
+.ac-img {
+  background-size: cover;
+  background-position: center;
+  transform-origin: inherit;
+  transform: skewX(30deg);
+  width: 160%;
+  height: 100%;
+}
+.at-farmon-sec {
+  width: 100%;
+  position: relative;
+  height: 500px;
+  background-color: red;
+}
+.at-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 25px;
+  color: #000000;
+}
+.at-farmon-title {
+  position: absolute;
+  width: 30%;
+  left: 5%;
+  height: 250px;
+  top: 125px;
+}
+.prallelegram {
+  width: 500px;
+  height: 500px;
+  transform-origin: 0 100%;
+  transform: skewX(-20deg);
+  overflow: hidden;
+  background-color: sandybrown;
+  display: inline-block;
+  margin-left: -50px;
+}
+.at-farmon-rasm {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.at-farmon-img {
+  object-fit: cover;
+  object-position: center;
+  transform-origin: inherit;
+  transform: skewX(20deg);
+  width: 150%;
+  height: 100%;
+}
