@@ -31,7 +31,7 @@ export default function Header(props) {
                 </Link>
               </div>
               <div className="single-menu">
-                <Link to="/education" className="my-link">
+                <Link to="/academics" className="my-link">
                   {lang.education}
                 </Link>
               </div>

@@ -12,6 +12,7 @@ import NewsPage from "./pages/NewsPage";
 import About from "./pages/About";
 import Galereya from "./pages/Galereya";
 import Administration from "./pages/Administration";
+import Academics from "./pages/Academics";
 
 function App() {
   const [lang, setLang] = useState(languages.uz);
@@ -35,6 +36,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/news" element={<News />} />
+            <Route path="/academics" element={<Academics />} />
             <Route path="/galereya" element={<Galereya />} />
             <Route path="/about" element={<About />} />
             <Route path="/administration" element={<Administration />} />

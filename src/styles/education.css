@@ -84,3 +84,147 @@
   color: #000000;
   padding: 50px;
 }
+.AcademicsMenu {
+  width: 300px;
+  height: calc(100vh - 57px);
+  position: fixed;
+  top: 57px;
+  left: 0px;
+}
+.ac-menu-block {
+  height: 415px;
+  width: 240px;
+  margin-left: 30px;
+  margin-top: calc(50vh - 28.5px - 207.5px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+.ac-menu-element {
+  display: inline-flex;
+  justify-content: left;
+  width: 240px;
+  height: 50px;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+.ac-menu-element-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  margin-top: 14px;
+  margin-left: 10px;
+}
+.ac-menu-element-icon {
+  width: 24px;
+  height: 24px;
+  margin-top: 13px;
+}
+.mar-left {
+  margin-left: 25px;
+}
+.ac-sec {
+  width: calc(100% - 400px);
+  margin-left: 300px;
+  margin-bottom: 100px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  background-color: rgba(221, 226, 235, 0.3);
+}
+.ac-sec-header {
+  position: relative;
+  width: 100%;
+  height: 180px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.ac-sec-header-pic {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.ac-sec-header-title {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ac-sec-body {
+  margin-top: 0px;
+  width: calc(100% - 150px);
+  padding: 30px 75px;
+}
+.ac-sec-body-p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 25px;
+  color: #000000;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.ac-sec-imtihon-icons {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.ac-sec-imtihon-icon {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 71px;
+  height: 71px;
+  background: #ffffff;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.ac-sec-exam-icon {
+  font-size: 45px;
+  color: black;
+}
+.ac-sec-imtihon-text {
+  position: absolute;
+  top: 100px;
+}
+.ac-sec-imtihon-bullet-name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  color: #000000;
+  margin-top: 20px;
+}
+.ac-sec-imtihon-bullet-list {
+  margin-top: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  margin-left: 50px;
+}
