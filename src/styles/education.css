@@ -228,3 +228,58 @@
   color: #000000;
   margin-left: 50px;
 }
+.ac-sec-exam-note {
+  position: relative;
+  height: 60px;
+}
+.ac-sec-exam-note-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  color: #ffffff;
+  position: absolute;
+  top: 13px;
+  left: 20px;
+  z-index: 99;
+}
+.ac-sec-exam-note-shape{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.ac-sec-fan-block{
+  width: 180px;
+  height: 240px;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  transition: all 0.3s;
+  text-align: center;
+  margin-top: 30px;
+}
+.ac-sec-fan-block:hover{
+  transform: scale(1.1);
+  box-shadow: 4px 4px 10px 1px rgba(0, 0, 0, 0.25);
+}
+.ac-sec-fan-rasm{
+  width: 116px;
+  height: 180px;
+  object-fit: cover;
+  object-position: center;
+  margin-top: 20px;
+}
+.ac-sec-fan-name{
+  color: #0F63DB;
+  font-family: "Inter";
+  font-size: 16px;
+  line-height: 18px;
+  margin-top: 5px;
+}
+.ac-sec-fanlar{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

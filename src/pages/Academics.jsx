@@ -3,13 +3,15 @@ import SinglePage from "../components/SinglePage";
 import "../styles/education.css";
 import Photo from "../media/school.svg";
 import { MdSchool } from "react-icons/md";
+import Notes2 from "../media/notes2.svg";
+import Fan from "../media/fan.png";
 
 export default function Academics() {
   return (
     <SinglePage>
       <div className="academics-page">
         <AcademicsMenu />
-        <div className="ac-sec" id="sec-1" >
+        <div className="ac-sec" id="sec-1">
           <div className="ac-sec-header">
             <img src={Photo} alt="" className="ac-sec-header-pic" />
             <div className="ac-sec-header-title">Qabul haqida</div>
@@ -88,12 +90,130 @@ export default function Academics() {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="ac-sec-body-p">
-            <div className="ac-sec-imtihon-bullet-name">
-              Imtihon bosqichlari:
+            <div className="ac-sec-body-p">
+              <div className="ac-sec-imtihon-bullet-name">
+                Imtihon bosqichlari:
+                <div className="ac-sec-imtihon-bullet-list">
+                  <div className="ac-sec-exam-note">
+                    <div className="ac-sec-exam-note-title">1-bosqich</div>
+                    <img
+                      src={Notes2}
+                      alt=""
+                      className="ac-sec-exam-note-shape"
+                    />
+                  </div>
+                  <div className="ac-sec-imtihon-bullet-list">
+                    •matematika fanidan 30 ta topshiriqdan iborat test shaklida
+                    o‘tkaziladi. Belgilangan vazifani bajarish uchun 90 daqiqa
+                    vaqt ajratiladi;
+                  </div>
+                  <div className="ac-sec-imtihon-bullet-list">
+                    •birinchi bosqich natijasiga ko‘ra qabul kvotasida
+                    belgilangan har bir o‘ringa 20 kishi hisobidan maksimal
+                    talabgorlar 2-bosqichda ishtirok etishga ruxsat etiladi;
+                  </div>
+                </div>
+                <div className="ac-sec-imtihon-bullet-list">
+                  <div className="ac-sec-exam-note">
+                    <div className="ac-sec-exam-note-title">2-bosqich</div>
+                    <img
+                      src={Notes2}
+                      alt=""
+                      className="ac-sec-exam-note-shape"
+                    />
+                  </div>
+                  <div className="ac-sec-imtihon-bullet-list">
+                    •axborotni tahlil qilish va solishtirish qobiliyatini
+                    aniqlash bo‘yicha — 16 ta masala;
+                  </div>
+                  <div className="ac-sec-imtihon-bullet-list">
+                    •mantiq elementlari bo‘lgan matematika fanidan — 24 ta
+                    masala
+                  </div>
+                  <div className="ac-sec-imtihon-bullet-list">
+                    •ingliz tilidan — 55 ta test.
+                  </div>
+                  <div className="ac-sec-imtihon-bullet-list">
+                    •2-bosqich kirish imtihonlari uchun jami 150 daqiqa vaqt
+                    ajratiladi.
+                  </div>
+                </div>
+              </div>
             </div>
-            
+          </div>
+        </div>
+        <div className="ac-sec" id="sec-3">
+          <div className="ac-sec-header">
+            <img src={Photo} alt="" className="ac-sec-header-pic" />
+            <div className="ac-sec-header-title">O'qitiladigan fanlar</div>
+          </div>
+          <div className="ac-sec-body">
+            <div className="ac-sec-fanlar">
+              <div className="ac-sec-fan-block">
+                <img src={Fan} alt="" className="ac-sec-fan-rasm" />
+                <div className="ac-sec-fan-name">Chemistry</div>
+              </div>
+              <div className="ac-sec-fan-block">
+                <img src={Fan} alt="" className="ac-sec-fan-rasm" />
+                <div className="ac-sec-fan-name">Chemistry</div>
+              </div>
+              <div className="ac-sec-fan-block">
+                <img src={Fan} alt="" className="ac-sec-fan-rasm" />
+                <div className="ac-sec-fan-name">Chemistry</div>
+              </div>
+              <div className="ac-sec-fan-block">
+                <img src={Fan} alt="" className="ac-sec-fan-rasm" />
+                <div className="ac-sec-fan-name">Chemistry</div>
+              </div>
+              <div className="ac-sec-fan-block">
+                <img src={Fan} alt="" className="ac-sec-fan-rasm" />
+                <div className="ac-sec-fan-name">Chemistry</div>
+              </div>
+              <div className="ac-sec-fan-block">
+                <img src={Fan} alt="" className="ac-sec-fan-rasm" />
+                <div className="ac-sec-fan-name">Chemistry</div>
+              </div>
+              <div className="ac-sec-fan-block">
+                <img src={Fan} alt="" className="ac-sec-fan-rasm" />
+                <div className="ac-sec-fan-name">Chemistry</div>
+              </div>
+              <div className="ac-sec-fan-block">
+                <img src={Fan} alt="" className="ac-sec-fan-rasm" />
+                <div className="ac-sec-fan-name">Chemistry</div>
+              </div>
+              <div className="ac-sec-fan-block">
+                <img src={Fan} alt="" className="ac-sec-fan-rasm" />
+                <div className="ac-sec-fan-name">Chemistry</div>
+              </div>
+              <div className="ac-sec-fan-block">
+                <img src={Fan} alt="" className="ac-sec-fan-rasm" />
+                <div className="ac-sec-fan-name">Chemistry</div>
+              </div>
+              <div className="ac-sec-fan-block">
+                <img src={Fan} alt="" className="ac-sec-fan-rasm" />
+                <div className="ac-sec-fan-name">Chemistry</div>
+              </div>
+              <div className="ac-sec-fan-block">
+                <img src={Fan} alt="" className="ac-sec-fan-rasm" />
+                <div className="ac-sec-fan-name">Chemistry</div>
+              </div>
+              <div className="ac-sec-fan-block">
+                <img src={Fan} alt="" className="ac-sec-fan-rasm" />
+                <div className="ac-sec-fan-name">Chemistry</div>
+              </div>
+              <div className="ac-sec-fan-block">
+                <img src={Fan} alt="" className="ac-sec-fan-rasm" />
+                <div className="ac-sec-fan-name">Chemistry</div>
+              </div>
+              <div className="ac-sec-fan-block">
+                <img src={Fan} alt="" className="ac-sec-fan-rasm" />
+                <div className="ac-sec-fan-name">Chemistry</div>
+              </div>
+              <div className="ac-sec-fan-block">
+                <img src={Fan} alt="" className="ac-sec-fan-rasm" />
+                <div className="ac-sec-fan-name">Chemistry</div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
