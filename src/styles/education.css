@@ -244,12 +244,12 @@
   left: 20px;
   z-index: 99;
 }
-.ac-sec-exam-note-shape{
+.ac-sec-exam-note-shape {
   position: absolute;
   top: 0px;
   left: 0px;
 }
-.ac-sec-fan-block{
+.ac-sec-fan-block {
   width: 180px;
   height: 240px;
   background-color: white;
@@ -259,27 +259,117 @@
   text-align: center;
   margin-top: 30px;
 }
-.ac-sec-fan-block:hover{
+.ac-sec-fan-block:hover {
   transform: scale(1.1);
   box-shadow: 4px 4px 10px 1px rgba(0, 0, 0, 0.25);
 }
-.ac-sec-fan-rasm{
+.ac-sec-fan-rasm {
   width: 116px;
   height: 180px;
   object-fit: cover;
   object-position: center;
   margin-top: 20px;
 }
-.ac-sec-fan-name{
-  color: #0F63DB;
+.ac-sec-fan-name {
+  color: #0f63db;
   font-family: "Inter";
   font-size: 16px;
   line-height: 18px;
   margin-top: 5px;
 }
-.ac-sec-fanlar{
+.ac-sec-fanlar {
   width: 100%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+.ac-sec-res-block {
+  width: 100%;
+  border: none;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+  background-color: white;
+  overflow: hidden;
+}
+.ac-sec-res-head {
+  width: 100%;
+  height: 90px;
+  border: none;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+.ac-sec-res-head-btn {
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  color: #ffffff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 90px;
+  width: 50%;
+}
+.ac-sec-res-head-left-btn {
+  background: #ff8980;
+  border-top-left-radius: 40px;
+}
+.ac-left-btn-active{
+  background: #fc5552 !important
+}
+.ac-right-btn-active{
+  background: #fc5552 !important
+}
+.ac-sec-res-head-right-btn {
+  background: #ff8980;
+  border-top-right-radius: 40px;
+}
+.ac-sec-res-download-block {
+  display: block;
+  width: 100%;
+}
+.ac-sec-res-down-file {
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #000000;
+}
+.ac-res-down-info {
+  margin-left: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.ac-sec-res-down-name {
+  display: inline-block;
+  width: min-content;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  margin-left: 25px;
+}
+.ac-res-down-btn {
+  border: none;
+  background: #1b3975;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  height: 45px;
+  margin-right: 45px;
+  padding: 0px 25px;
+  transition: 0.3s all;
+}
+.ac-res-down-btn:hover{
+  transform: scale(1.1);
+}
+.hide-display{
+  display: none;
 }

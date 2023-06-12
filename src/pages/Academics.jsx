@@ -5,8 +5,12 @@ import Photo from "../media/school.svg";
 import { MdSchool } from "react-icons/md";
 import Notes2 from "../media/notes2.svg";
 import Fan from "../media/fan.png";
+import { RiFileTextFill } from "react-icons/ri";
+import { AiOutlineDownload } from "react-icons/ai";
+import { useState } from "react";
 
 export default function Academics() {
+  const [isXujjat, setIsXujjat] = useState(true);
   return (
     <SinglePage>
       <div className="academics-page">
@@ -212,6 +216,275 @@ export default function Academics() {
               <div className="ac-sec-fan-block">
                 <img src={Fan} alt="" className="ac-sec-fan-rasm" />
                 <div className="ac-sec-fan-name">Chemistry</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="ac-sec" id="sec-4">
+          <div className="ac-sec-header">
+            <img src={Photo} alt="" className="ac-sec-header-pic" />
+            <div className="ac-sec-header-title">Namunaviy fayllar</div>
+          </div>
+          <div className="ac-sec-body">
+            <div className="ac-sec-res-block">
+              <div className="ac-sec-res-head">
+                <div
+                  className={
+                    isXujjat
+                      ? "ac-sec-res-head-left-btn ac-sec-res-head-btn ac-left-btn-active "
+                      : "ac-sec-res-head-left-btn ac-sec-res-head-btn"
+                  }
+                  onClick={() => {
+                    setIsXujjat(true);
+                  }}
+                >
+                  Namunaviy xujjatlar
+                </div>
+                <div
+                  className={
+                    isXujjat
+                      ? "ac-sec-res-head-right-btn ac-sec-res-head-btn"
+                      : "ac-sec-res-head-right-btn ac-sec-res-head-btn ac-right-btn-active"
+                  }
+                  onClick={() => {
+                    setIsXujjat(false);
+                  }}
+                >
+                  Namunaviy savollar
+                </div>
+              </div>
+              <div
+                className={
+                  isXujjat
+                    ? "ac-sec-res-download-block"
+                    : "ac-sec-res-download-block hide-display"
+                }
+              >
+                <div className="ac-sec-res-down-file">
+                  <div className="ac-res-down-info">
+                    <RiFileTextFill
+                      style={{ fontSize: "38px", display: "inline-block" }}
+                    />
+                    <div className="ac-sec-res-down-name">File_Name.pdf</div>
+                  </div>
+                  <button className="ac-res-down-btn">
+                    <AiOutlineDownload
+                      style={{
+                        fontSize: "30px",
+                        marginRight: "10px",
+                        marginBottom: "-8px",
+                      }}
+                    />
+                    Download
+                  </button>
+                </div>
+                <div className="ac-sec-res-down-file">
+                  <div className="ac-res-down-info">
+                    <RiFileTextFill
+                      style={{ fontSize: "38px", display: "inline-block" }}
+                    />
+                    <div className="ac-sec-res-down-name">File_Name.pdf</div>
+                  </div>
+                  <button className="ac-res-down-btn">
+                    <AiOutlineDownload
+                      style={{
+                        fontSize: "30px",
+                        marginRight: "10px",
+                        marginBottom: "-8px",
+                      }}
+                    />
+                    Download
+                  </button>
+                </div>
+                <div className="ac-sec-res-down-file">
+                  <div className="ac-res-down-info">
+                    <RiFileTextFill
+                      style={{ fontSize: "38px", display: "inline-block" }}
+                    />
+                    <div className="ac-sec-res-down-name">File_Name.pdf</div>
+                  </div>
+                  <button className="ac-res-down-btn">
+                    <AiOutlineDownload
+                      style={{
+                        fontSize: "30px",
+                        marginRight: "10px",
+                        marginBottom: "-8px",
+                      }}
+                    />
+                    Download
+                  </button>
+                </div>
+                <div className="ac-sec-res-down-file">
+                  <div className="ac-res-down-info">
+                    <RiFileTextFill
+                      style={{ fontSize: "38px", display: "inline-block" }}
+                    />
+                    <div className="ac-sec-res-down-name">File_Name.pdf</div>
+                  </div>
+                  <button className="ac-res-down-btn">
+                    <AiOutlineDownload
+                      style={{
+                        fontSize: "30px",
+                        marginRight: "10px",
+                        marginBottom: "-8px",
+                      }}
+                    />
+                    Download
+                  </button>
+                </div>
+                <div className="ac-sec-res-down-file">
+                  <div className="ac-res-down-info">
+                    <RiFileTextFill
+                      style={{ fontSize: "38px", display: "inline-block" }}
+                    />
+                    <div className="ac-sec-res-down-name">File_Name.pdf</div>
+                  </div>
+                  <button className="ac-res-down-btn">
+                    <AiOutlineDownload
+                      style={{
+                        fontSize: "30px",
+                        marginRight: "10px",
+                        marginBottom: "-8px",
+                      }}
+                    />
+                    Download
+                  </button>
+                </div>
+              </div>
+              <div
+                className={
+                  isXujjat
+                    ? "ac-sec-res-download-block hide-display"
+                    : "ac-sec-res-download-block"
+                }
+              >
+                <div className="ac-sec-res-down-file">
+                  <div className="ac-res-down-info">
+                    <RiFileTextFill
+                      style={{ fontSize: "38px", display: "inline-block" }}
+                    />
+                    <div className="ac-sec-res-down-name">File_Name.pdf</div>
+                  </div>
+                  <button className="ac-res-down-btn">
+                    <AiOutlineDownload
+                      style={{
+                        fontSize: "30px",
+                        marginRight: "10px",
+                        marginBottom: "-8px",
+                      }}
+                    />
+                    Download
+                  </button>
+                </div>
+                <div className="ac-sec-res-down-file">
+                  <div className="ac-res-down-info">
+                    <RiFileTextFill
+                      style={{ fontSize: "38px", display: "inline-block" }}
+                    />
+                    <div className="ac-sec-res-down-name">File_Name.pdf</div>
+                  </div>
+                  <button className="ac-res-down-btn">
+                    <AiOutlineDownload
+                      style={{
+                        fontSize: "30px",
+                        marginRight: "10px",
+                        marginBottom: "-8px",
+                      }}
+                    />
+                    Download
+                  </button>
+                </div>
+                <div className="ac-sec-res-down-file">
+                  <div className="ac-res-down-info">
+                    <RiFileTextFill
+                      style={{ fontSize: "38px", display: "inline-block" }}
+                    />
+                    <div className="ac-sec-res-down-name">File_Name.pdf</div>
+                  </div>
+                  <button className="ac-res-down-btn">
+                    <AiOutlineDownload
+                      style={{
+                        fontSize: "30px",
+                        marginRight: "10px",
+                        marginBottom: "-8px",
+                      }}
+                    />
+                    Download
+                  </button>
+                </div>
+                <div className="ac-sec-res-down-file">
+                  <div className="ac-res-down-info">
+                    <RiFileTextFill
+                      style={{ fontSize: "38px", display: "inline-block" }}
+                    />
+                    <div className="ac-sec-res-down-name">File_Name.pdf</div>
+                  </div>
+                  <button className="ac-res-down-btn">
+                    <AiOutlineDownload
+                      style={{
+                        fontSize: "30px",
+                        marginRight: "10px",
+                        marginBottom: "-8px",
+                      }}
+                    />
+                    Download
+                  </button>
+                </div>
+                <div className="ac-sec-res-down-file">
+                  <div className="ac-res-down-info">
+                    <RiFileTextFill
+                      style={{ fontSize: "38px", display: "inline-block" }}
+                    />
+                    <div className="ac-sec-res-down-name">File_Name.pdf</div>
+                  </div>
+                  <button className="ac-res-down-btn">
+                    <AiOutlineDownload
+                      style={{
+                        fontSize: "30px",
+                        marginRight: "10px",
+                        marginBottom: "-8px",
+                      }}
+                    />
+                    Download
+                  </button>
+                </div>
+                <div className="ac-sec-res-down-file">
+                  <div className="ac-res-down-info">
+                    <RiFileTextFill
+                      style={{ fontSize: "38px", display: "inline-block" }}
+                    />
+                    <div className="ac-sec-res-down-name">File_Name.pdf</div>
+                  </div>
+                  <button className="ac-res-down-btn">
+                    <AiOutlineDownload
+                      style={{
+                        fontSize: "30px",
+                        marginRight: "10px",
+                        marginBottom: "-8px",
+                      }}
+                    />
+                    Download
+                  </button>
+                </div>
+                <div className="ac-sec-res-down-file">
+                  <div className="ac-res-down-info">
+                    <RiFileTextFill
+                      style={{ fontSize: "38px", display: "inline-block" }}
+                    />
+                    <div className="ac-sec-res-down-name">File_Name.pdf</div>
+                  </div>
+                  <button className="ac-res-down-btn">
+                    <AiOutlineDownload
+                      style={{
+                        fontSize: "30px",
+                        marginRight: "10px",
+                        marginBottom: "-8px",
+                      }}
+                    />
+                    Download
+                  </button>
+                </div>
               </div>
             </div>
           </div>
