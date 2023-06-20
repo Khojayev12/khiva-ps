@@ -489,6 +489,53 @@ export default function Academics() {
             </div>
           </div>
         </div>
+
+        <div className="ac-sec" id="sec-5">
+          <div className="ac-sec-header">
+            <img src={Photo} alt="" className="ac-sec-header-pic" />
+            <div className="ac-sec-header-title">Qo'shimcha to'garaklar</div>
+          </div>
+          <div className="ac-sec-body">
+            <div className="ac-sec-extras-block">
+              <div className="ac-sec-extras-text">
+                <div className="ac-sec-extra-header">Title of course</div>
+                <div className="ac-sec-extras-info">
+                  Prezident maktablari – O‘zbekiston Respublikasi Prezidenti
+                  Shavkat Mirziyoyev tashabbusi bilan 2019-2021-yillarda tashkil
+                  etilgan 14 ta maxsus maktablar. 2019-yil 20- fevraldagi
+                  “Prezident maktablarini tashkil etish chora-tadbirlari
+                  to‘g‘risida O‘zbekiston Respublikasi Prezidentining qarori” ga
+                  asosan 2019-yilda 4 ta Prezident maktablari Toshkent, Xiva,
+                  Namangan va Nukus shaharlarida o‘z faoliyatini boshlagan.
+                </div>
+              </div>
+              <div className="ac-sec-extras-pic">
+                <div className="ac-sec-extras-pic-box">
+                  <img src={Photo} className="ac-sec-extra-photo" alt="" />
+                </div>
+              </div>
+            </div>
+            <div className="ac-sec-extras-block">
+              <div className="ac-sec-extras-text">
+                <div className="ac-sec-extra-header">Title of course</div>
+                <div className="ac-sec-extras-info">
+                  Prezident maktablari – O‘zbekiston Respublikasi Prezidenti
+                  Shavkat Mirziyoyev tashabbusi bilan 2019-2021-yillarda tashkil
+                  etilgan 14 ta maxsus maktablar. 2019-yil 20- fevraldagi
+                  “Prezident maktablarini tashkil etish chora-tadbirlari
+                  to‘g‘risida O‘zbekiston Respublikasi Prezidentining qarori” ga
+                  asosan 2019-yilda 4 ta Prezident maktablari Toshkent, Xiva,
+                  Namangan va Nukus shaharlarida o‘z faoliyatini boshlagan.
+                </div>
+              </div>
+              <div className="ac-sec-extras-pic">
+                <div className="ac-sec-extras-pic-box">
+                  <img src={Photo} className="ac-sec-extra-photo" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </SinglePage>
   );

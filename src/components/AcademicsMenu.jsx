@@ -6,41 +6,84 @@ import Menu5 from "../media/menu-icons/menu5.svg";
 import Menu6 from "../media/menu-icons/menu6.svg";
 import Menu7 from "../media/menu-icons/menu7.svg";
 import Menu8 from "../media/menu-icons/menu8.svg";
-import "../styles/education.css"
+import "../styles/education.css";
 
 export default function AcademicsMenu() {
+  const ScrollToElement = (element) => {
+    document.getElementById(element).scrollIntoView({ behavior: "smooth" });
+  };
   return (
     <div className="AcademicsMenu">
       <div className="ac-menu-block">
-        <div className="ac-menu-element">
+        <div
+          className="ac-menu-element"
+          onClick={() => {
+            ScrollToElement("sec-1");
+          }}
+        >
           <img src={Menu1} alt="" className="ac-menu-element-icon" />
-          <span className="ac-menu-element-text">Qabul haqida </span>
+          <span className="ac-menu-element-text"> Qabul haqida</span>
         </div>
-        <div className="ac-menu-element">
+        <div
+          className="ac-menu-element"
+          onClick={() => {
+            ScrollToElement("sec-2");
+          }}
+        >
           <img src={Menu2} alt="" className="ac-menu-element-icon mar-left" />
           <span className="ac-menu-element-text">Imtihon </span>
         </div>
-        <div className="ac-menu-element">
+        <div
+          className="ac-menu-element"
+          onClick={() => {
+            ScrollToElement("sec-2");
+          }}
+        >
           <img src={Menu3} alt="" className="ac-menu-element-icon mar-left" />
           <span className="ac-menu-element-text">Eligibility </span>
         </div>
-        <div className="ac-menu-element">
+        <div
+          className="ac-menu-element"
+          onClick={() => {
+            ScrollToElement("sec-4");
+          }}
+        >
           <img src={Menu4} alt="" className="ac-menu-element-icon mar-left" />
           <span className="ac-menu-element-text">Hujjat topshirish </span>
         </div>
-        <div className="ac-menu-element">
+        <div
+          className="ac-menu-element"
+          onClick={() => {
+            ScrollToElement("sec-3");
+          }}
+        >
           <img src={Menu5} alt="" className="ac-menu-element-icon" />
           <span className="ac-menu-element-text">A & As-level </span>
         </div>
-        <div className="ac-menu-element">
+        <div
+          className="ac-menu-element"
+          onClick={() => {
+            ScrollToElement("sec-3");
+          }}
+        >
           <img src={Menu6} alt="" className="ac-menu-element-icon" />
           <span className="ac-menu-element-text">O'qitiladigan fanlar </span>
         </div>
-        <div className="ac-menu-element">
+        <div
+          className="ac-menu-element"
+          onClick={() => {
+            ScrollToElement("sec-5");
+          }}
+        >
           <img src={Menu7} alt="" className="ac-menu-element-icon" />
           <span className="ac-menu-element-text">Qo'shimcha to'garaklar </span>
         </div>
-        <div className="ac-menu-element">
+        <div
+          className="ac-menu-element"
+          onClick={() => {
+            ScrollToElement("sec-2");
+          }}
+        >
           <img src={Menu8} alt="" className="ac-menu-element-icon" />
           <span className="ac-menu-element-text">Bitiruvchilar </span>
         </div>
