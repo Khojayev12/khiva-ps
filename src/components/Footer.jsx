@@ -77,23 +77,43 @@ export default function Footer() {
               <div className="foot-xarita"> {lang.social}</div>
               <div className="foot-xarita-block">
                 <div className="foot-xaritas">
-                  <a href="https://t.me/PSinKhiva" target="_blank" className="my-link" >
+                  <a
+                    href="https://t.me/PSinKhiva"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="my-link"
+                  >
                     <SiTelegram className="foot-icon" /> Telegram
                   </a>
                 </div>
                 <div className="foot-xaritas">
-                  <a href="https://www.instagram.com/psinkhiva/" target="_blank" className="my-link">
+                  <a
+                    href="https://www.instagram.com/psinkhiva/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="my-link"
+                  >
                     <SiInstagram className="foot-icon" />
                     Instagram
                   </a>
                 </div>
                 <div className="foot-xaritas">
-                  <a href="https://t.me/PSinKhiva" target="_blank" className="my-link">
+                  <a
+                    href="https://t.me/PSinKhiva"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="my-link"
+                  >
                     <SiFacebook className="foot-icon" /> Facebook
                   </a>
                 </div>
                 <div className="foot-xaritas">
-                  <a href="https://t.me/PSinKhiva" target="_blank" className="my-link">
+                  <a
+                    href="https://t.me/PSinKhiva"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="my-link"
+                  >
                     <SiYoutube className="foot-icon" />
                     Youtube
                   </a>
