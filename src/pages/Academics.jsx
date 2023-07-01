@@ -8,13 +8,15 @@ import Fan from "../media/fan.png";
 import { RiFileTextFill } from "react-icons/ri";
 import { AiOutlineDownload } from "react-icons/ai";
 import { useState } from "react";
+import Footer from "../components/Footer";
 
 export default function Academics() {
   const [isXujjat, setIsXujjat] = useState(true);
-  return (
+  return (<>
     <SinglePage>
       <div className="academics-page">
         <AcademicsMenu />
+        <div className="as-sectors" >
         <div className="ac-sec" id="sec-1">
           <div className="ac-sec-header">
             <img src={Photo} alt="" className="ac-sec-header-pic" />
@@ -534,9 +536,10 @@ export default function Academics() {
                 </div>
               </div>
             </div>
-          </div>
+          </div></div>
         </div>
       </div>
-    </SinglePage>
+     
+    </SinglePage> <Footer/></>
   );
 }

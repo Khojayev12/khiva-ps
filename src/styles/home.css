@@ -139,8 +139,22 @@
   width: 100%;
   margin-top: 10px;
   position: relative;
+  height: 550px;
 }
-
+.slider-title {
+  position: absolute;
+  top: -50px;
+  border-bottom: #1b3975 solid 3px;
+  left: 7.5%;
+  width: fit-content;
+  color: #000;
+  font-size: 25px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
 .news-at-home {
   cursor: pointer;
   position: relative;

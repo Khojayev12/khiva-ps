@@ -1,5 +1,6 @@
 .education {
   width: 85%;
+  margin-top: 50px;
   margin-left: 7.5%;
   height: 650px;
   position: relative;
@@ -87,7 +88,7 @@
 .AcademicsMenu {
   width: 300px;
   height: calc(100vh - 57px);
-  position: fixed;
+  position: absolute;
   top: 57px;
   left: 0px;
 }
@@ -95,7 +96,7 @@
   height: 415px;
   width: 240px;
   margin-left: 30px;
-  margin-top: calc(50vh - 28.5px - 207.5px);
+  margin-top: calc(150px);
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
 .ac-menu-element {
@@ -125,6 +126,10 @@
 }
 .mar-left {
   margin-left: 25px;
+}
+.as-sectors{
+  height: calc(100vh - 50px);
+  overflow: auto;
 }
 .ac-sec {
   width: calc(100% - 400px);
