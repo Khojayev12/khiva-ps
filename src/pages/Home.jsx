@@ -81,7 +81,7 @@ export default function Home() {
                   </div>
                   <hr className="news-all-line" />
                   <Link to="/news">
-                    <button className="news-all">Barcha yangiliklar</button>
+                    <button className="news-all">Ko'proq</button>
                   </Link>
                   <div className="home-n-slider" id="news-scroll">
                     <NewsComponent
