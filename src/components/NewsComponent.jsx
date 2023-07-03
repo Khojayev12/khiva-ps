@@ -10,7 +10,7 @@ export default function NewsComponent(props) {
           <div className="s-news-title"> {props.title} </div>
           <div className="s-news-desc"> {props.description} </div>
           <div className="s-news-controls">
-          <span>
+          <span className="news-component-date" >
             <IoMdTime
               style={{
                 color: "#1B3975",

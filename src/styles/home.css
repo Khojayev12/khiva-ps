@@ -54,7 +54,16 @@
   line-height: 30px;
   color: #ffffff;
 }
-
+.mar-60-l{
+  margin-left: 60px;
+}
+.mar-60-r{
+  margin-right: 60px;
+  text-align: end;
+}
+.news-section-mob-header{
+  display: none;
+}
 .news-section {
   width: 100%;
   margin-top: 30px;

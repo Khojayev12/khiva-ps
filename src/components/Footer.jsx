@@ -19,12 +19,12 @@ export default function Footer() {
       {(lang) => (
         <div className="footer">
           <div className="make-flex">
-            <div className="foot" style={{ width: "130px" }}>
+            <div className="foot width-130">
               <img src={Logo} alt="" className="foot-logo" />
               <div className="foot-name"> {lang.schoolName} </div>
             </div>
 
-            <div className="foot" style={{ marginLeft: "70px" }}>
+            <div className="foot left-70-mar">
               <div className="foot-xarita"> {lang.xarita} </div>
               <div className="foot-xarita-block">
                 <div className="foot-xaritas">
@@ -55,7 +55,7 @@ export default function Footer() {
               </div>
             </div>
 
-            <div className="foot" style={{ marginLeft: "79px" }}>
+            <div className="foot left-79-mar">
               <div className="foot-xarita"> {lang.contact} </div>
               <div className="foot-xarita-block">
                 <div className="foot-xaritas">
@@ -73,7 +73,7 @@ export default function Footer() {
               </div>
             </div>
 
-            <div className="foot" style={{ marginLeft: "109px" }}>
+            <div className="foot left-109-mar">
               <div className="foot-xarita"> {lang.social}</div>
               <div className="foot-xarita-block">
                 <div className="foot-xaritas">

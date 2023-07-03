@@ -2,6 +2,7 @@ import NewsSlider from "../components/NewsSlider";
 import SinglePage from "../components/SinglePage";
 import NewsComponent from "../components/NewsComponent";
 import "../styles/news.css";
+import "../styles/news-mob.css";
 import Photo from "../media/school.svg";
 import Footer from "../components/Footer";
 

@@ -38,7 +38,7 @@
   margin-top: 14px;
 }
 .foot-xaritas {
-    text-align: left;
+  text-align: left;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -58,14 +58,63 @@
   padding-top: 10px;
   padding-bottom: 10px;
 }
-
-.make-flex{
-    width: 100%;
-    display: flex;
-    justify-content: center;
+.width-130 {
+  width: 130px;
 }
-.foot-icon{
-    width: 30px;
-    text-align: center;
-    margin-left: 0px;
+.left-70-mar {
+  margin-left: 70px;
+}
+.left-79-mar {
+  margin-left: 79px;
+}
+.left-109-mar {
+  margin-left: 109px;
+}
+.make-flex {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.foot-icon {
+  width: 30px;
+  text-align: center;
+  margin-left: 0px;
+}
+@media screen and (max-width: 820px) {
+  .make-flex {
+    display: block;
+  }
+  .width-130 {
+    width: calc(100% - 40px);
+    margin-left: 20px;
+  }
+  .foot {
+    display: block;
+  }
+  .foot-logo {
+    display: none;
+  }
+  .left-70-mar {
+    display: none;
+  }
+  .left-79-mar {
+    margin-left: 40px;
+    margin-top: 45px;
+  }
+  .left-109-mar {
+    margin-left: 40px;
+    margin-top: 45px;
+  }
+  .foot-name {
+    color: #fff;
+    font-size: 18px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  .footer {
+    padding-top: 45px;
+  }
 }

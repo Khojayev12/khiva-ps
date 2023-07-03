@@ -1,5 +1,6 @@
 import SinglePage from "../components/SinglePage";
 import "../styles/home.css";
+import "../styles/home-mob.css";
 import Photo from "../media/school.svg";
 import Photo2 from "../media/school.png";
 import NewsIcon from "../media/newsIcon.svg";
@@ -33,9 +34,7 @@ export default function Home() {
                 <img src={Photo2} alt="" className="hero-photo" />
                 <div className="hero-title">
                   <div className="hero-header">Bizning maqsadimiz</div>
-                  <div className="hero-opostrov" style={{ marginLeft: "60px" }}>
-                    “
-                  </div>
+                  <div className="hero-opostrov mar-60-l">“</div>
                   <div className="hero-text">
                     It is a long established fact that a reader will be
                     distracted by the readable content of a page when looking at
@@ -45,12 +44,7 @@ export default function Home() {
                     readable English. Many desktop publishing packages and web
                     page editors now use{" "}
                   </div>
-                  <div
-                    className="hero-opostrov"
-                    style={{ marginRight: "60px", textAlign: "end" }}
-                  >
-                    ”
-                  </div>
+                  <div className="hero-opostrov mar-60-r">”</div>
                 </div>
               </div>
 
@@ -73,6 +67,10 @@ export default function Home() {
                       style={{ transform: "scaleX(-1)" }}
                     />
                   </div>
+                </div>
+                <div className="news-section-mob-header">
+                  <div className="nsmh-title">News & Events</div>
+                  <div className="nsmh-school">{lang.schoolName}</div>
                 </div>
                 <div
                   className="news-section-yangilikla"
