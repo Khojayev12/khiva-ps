@@ -64,18 +64,17 @@
   box-shadow: -5px 5px 50px 3px rgba(0, 0, 0, 0.3);
   transition: all 0.5s;
 }
-.news-all:hover{
+.news-all:hover {
   transform: scale(1.1);
 }
-.news-all-line{
+.news-all-line {
   border: none;
-  border-bottom: 1px solid #1B3975;
+  border-bottom: 1px solid #1b3975;
   height: 0px;
   position: absolute;
   top: 432px;
   left: 7.5%;
   width: 85%;
-
 }
 .s-news {
   display: inline-block;

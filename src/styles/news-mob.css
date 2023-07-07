@@ -7,7 +7,7 @@
     margin-right: 0px !important;
     border: 1px solid rgba(0, 0, 0, 0.5);
   }
-  .s-news-desc{
+  .s-news-desc {
     display: none;
   }
   .s-news:hover .s-news-info {
@@ -58,9 +58,9 @@
     margin: 0px auto;
   }
   .news-all {
-    top: calc(100% - 30px) !important;
+    top: calc(100% - 30px);
   }
   .news-all-line {
-    top: calc(100% - 18px) !important;
+    top: calc(100% - 18px);
   }
 }

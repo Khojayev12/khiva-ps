@@ -54,14 +54,14 @@
   line-height: 30px;
   color: #ffffff;
 }
-.mar-60-l{
+.mar-60-l {
   margin-left: 60px;
 }
-.mar-60-r{
+.mar-60-r {
   margin-right: 60px;
   text-align: end;
 }
-.news-section-mob-header{
+.news-section-mob-header {
   display: none;
 }
 .news-section {
@@ -317,11 +317,40 @@
   height: calc(100vh - 57px);
   position: relative;
 }
+.gal-all {
+  border: none;
+  left: calc(50% - 150px);
+  background: #1b3975;
+  border-radius: 20px;
+  height: 42px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  position: absolute;
+  width: 300px;
+  box-shadow: -5px 5px 50px 3px rgba(0, 0, 0, 0.3);
+  transition: all 0.5s;
+  top: calc(100vh - 70px);
+}
+.gal-all-line {
+  border: none;
+  border-bottom: 1px solid #1b3975;
+  height: 0px;
+  position: absolute;
+  top: calc(100vh - 58px);
+  left: 7.5%;
+  width: 85%;
+}
 .galereya .news-all-line {
-  top: calc(100vh - 58px) !important;
+  top: calc(100vh - 58px);
 }
 .galereya .news-all {
-  top: calc(100vh - 70px) !important;
+  top: calc(100vh - 70px);
 }
 .galereya-header {
   width: 100%;
@@ -359,6 +388,12 @@
   width: 33.5%;
   height: calc(100% - 20px);
 }
+.galereya-small-mob {
+  display: none;
+}
+.galereya-small-deck {
+  display: block;
+}
 .galereya-com {
   position: relative;
   width: calc(100% - 10px);
@@ -393,7 +428,7 @@
   background-color: rgba(0, 0, 0, 0.5);
   padding: 0px;
   padding-left: 4px;
-  top: 57px;
+  top: 50px;
   left: 0px;
   width: 100vw;
   height: calc(100vh - 57px);
@@ -407,7 +442,7 @@
   margin-left: 5%;
   height: calc(100vh - 57px);
   cursor: zoom-out;
-  object-fit: cover;
+  object-fit: contain;
   transition: all 0.5s linear;
   object-position: center;
 }
@@ -533,11 +568,36 @@
   margin-left: 7.5%;
 }
 .staff-all {
-  top: 787px !important;
+  border: none;
+  background: #1b3975;
+  border-radius: 20px;
+  height: 42px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  position: absolute;
+  left: calc(50% - 150px);
+  width: 300px;
+  box-shadow: -5px 5px 50px 3px rgba(0, 0, 0, 0.3);
+  transition: all 0.5s;
+  top: 787px;
 }
 
 .all-staff {
   width: 300px;
+}
+.staff-all-line-mob {
+  display: none;
+  border: none;
+  border-bottom: 1px solid #1b3975;
+  height: 0px;
+  position: absolute;
+  width: 100%;
 }
 
 .educatoin {
@@ -556,44 +616,4 @@
   text-align: center;
   text-transform: uppercase;
   color: #000000;
-}
-.stemS {
-  position: absolute;
-  left: 5%;
-  top: 70px;
-}
-.stemT {
-  position: absolute;
-  left: 5%;
-  top: 220px;
-}
-.stemE {
-  position: absolute;
-  left: 5%;
-  top: 370px;
-}
-.stemM {
-  position: absolute;
-  left: 5%;
-  top: 520px;
-}
-.stem {
-  position: absolute;
-  left: calc(5% + 170px);
-  top: 56px;
-}
-.stem-text {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 30px;
-  line-height: 36px;
-  text-align: center;
-  color: #000000;
-  position: absolute;
-  height: 629px;
-  width: 30%;
-  right: 5%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }

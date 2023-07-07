@@ -25,7 +25,6 @@ export default function Home() {
       behavior: "smooth",
     });
   };
-  console.log(typeof(document.body.clientWidth))
   return (
     <SinglePage>
       <LangContext.Consumer>
@@ -343,36 +342,39 @@ export default function Home() {
                   <div className="galereya-big">
                     <GalereyaLanding width="100%" height="100%" pic={Photo} />
                   </div>
+                  <div className="galereya-big galereya-small-mob">
+                    <GalereyaLanding width="100%" height="100%" pic={Photo} />
+                  </div>
+                  <div className="galereya-big galereya-small-mob">
+                    <GalereyaLanding width="100%" height="100%" pic={Photo} />
+                  </div>
+                  <div className="galereya-big galereya-small-mob">
+                    <GalereyaLanding width="100%" height="100%" pic={Photo} />
+                  </div>
                   <div className="galereya-small">
                     <GalereyaLanding
-                      width={
-                        document.body.clientWidth >= 820 ? "100%" : "50vw"
-                      }
+                      width="100%"
                       height="33%"
                       pic={Photo}
-                      className="galereya-small-mob"
+                      className="galereya-small-deck"
                     />
                     <GalereyaLanding
-                      width={
-                        document.body.clientWidth >= 820 ? "100%" : "50vw"
-                      }
+                      width="100%"
                       height="33%"
                       pic={Photo}
-                      className="galereya-small-mob"
+                      className="galereya-small-deck"
                     />
                     <GalereyaLanding
-                      width={
-                        document.body.clientWidth >= 820 ? "100%" : "50vw"
-                      }
+                      width="100%"
                       height="33%"
                       pic={Photo}
-                      className="galereya-small-mob"
+                      className="galereya-small-deck"
                     />
                   </div>
                 </div>
-                <hr className="news-all-line" />
+                <hr className="gal-all-line" />
                 <Link to="/galereya">
-                  <button className="news-all">Barchasi</button>
+                  <button className="my-all-btn gal-all">Barchasi</button>
                 </Link>
               </div>
 
@@ -394,10 +396,9 @@ export default function Home() {
                     text="Mr. Myles Beaupre was born and raised in Thunder Bay, Ontario, Canada. He started teaching at Queen Elizabeth District High School in Sioux Lookout, ON before moving to the United States to attend the University of Notre Dame. Since moving to Memphis in 2011, Mr. Beaupre has taught with the Achievement School District, Southwind High School and, since 2014, at Collierville High School. At CHS, he has taught history and served as both Assistant and Head Track Coach, Instructional Coach, and Support Team Leader."
                   />
                 </div>
+                <hr className=" staff-all-line-mob" />
                 <Link to="/administration">
-                  <button className="news-all staff-all">
-                    Barcha xodimlar
-                  </button>
+                  <button className="staff-all">Barchasi</button>
                 </Link>
               </div>
             </div>

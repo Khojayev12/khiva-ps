@@ -16,7 +16,7 @@ export default function GalereyaLanding(props) {
       }
       style={{
         width: isZoomed ? "100vw" : props.width,
-        height: isZoomed ? "calc(100vh - 57px)" : props.height,
+        height: isZoomed ? "calc(100vh - 50px)" : props.height,
       }}
       onClick={handleClick}
     >
