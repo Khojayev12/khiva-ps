@@ -10,9 +10,9 @@ export default function GalereyaLanding(props) {
   return (
     <div
       className={
-        isZoomed
+        (isZoomed
           ? "galereya-com galereya-com-act my-transitoin"
-          : "galereya-com my-transitoin"
+          : "galereya-com my-transitoin") + (" " + props.className)
       }
       style={{
         width: isZoomed ? "100vw" : props.width,

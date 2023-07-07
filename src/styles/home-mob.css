@@ -56,8 +56,82 @@
     line-height: normal;
     margin-bottom: 20px;
   }
-  .newas-next-btn{
+  .newas-next-btn {
     display: none !important;
+    background-color: red;
+  }
+  .honors-section {
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    height: 400px;
+    border-bottom: 1px solid #1b3975;
+  }
+  .hon-trio {
+    display: none;
+  }
+  .hon-mob-show {
+    display: block;
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  .hon-headaer {
+    width: 280px;
+    color: #000;
+    font-size: 21px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  .hon-quad-title {
+    display: block;
+  }
+  .hon-quad-num {
+    color: #000;
+    font-size: 21px;
+    font-family: "Bookman Old Style";
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  .hon-quad-def {
+    color: #000;
+    text-align: center;
+    font-size: 15px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .hon-head {
+    width: 100%;
+    margin-top: 0px;
+  }
+  .hon-head-line {
+    margin-top: 10px;
+    width: calc((100% - 280px) / 2);
+  }
+  .galereya-title {
+    color: #000;
+    font-size: 20px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  .galereya-big {
+    width: 50%;
+    height: 50vw;
+  }
+  .galereya-small {
+    display: inline-flex;
+    width: 100%;
+    justify-content: right;
+  }
+  .galereya-small-mob {
     background-color: red;
   }
 }

@@ -106,7 +106,7 @@
   height: 50px;
   border-top: 1px solid rgba(0, 0, 0, 0.3);
 }
-.ac-menu-element:hover{
+.ac-menu-element:hover {
   cursor: pointer;
 }
 .ac-menu-element-text {
@@ -127,7 +127,7 @@
 .mar-left {
   margin-left: 25px;
 }
-.as-sectors{
+.as-sectors {
   height: calc(100vh - 50px);
   overflow: auto;
 }
@@ -380,4 +380,66 @@
 }
 .hide-display {
   display: none;
+}
+@media screen and (max-width: 820px) {
+  .education {
+    width: calc(100%);
+    margin-left: 0px;
+    margin-top: 70px;
+    height: 1000px;
+  }
+  .edu-header {
+    width: calc(100% - 80px) !important;
+  }
+  .edu-head-title {
+    font-size: 30px;
+    line-height: normal;
+    left: 0;
+    right: 0;
+    margin: 17px auto;
+    width: fit-content;
+  }
+  .edu-body {
+    display: block;
+    width: calc(100% - 40px);
+    margin-left: 20px;
+  }
+  .edu-menu {
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    display: block;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    padding-top: 0px;
+    height: 391px;
+  }
+  .edu-menu-img {
+    width: 90%;
+    margin-bottom: 26px;
+  }
+  .edu-sub-menu {
+    color: #000;
+    font-size: 21px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+  }
+  .edu-sub-menu-active {
+    color: white;
+  }
+  .edu-menu-info {
+    color: #000;
+    font-size: 18px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 20;
+    display: block;
+    width: calc(100% - 20px);
+    padding: 20px;
+    margin-top: 0px;
+    margin-left: 0px;
+    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.25);
+  }
 }

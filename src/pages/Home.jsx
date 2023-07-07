@@ -1,5 +1,6 @@
 import SinglePage from "../components/SinglePage";
 import "../styles/home.css";
+import "../styles/education-mob.css";
 import "../styles/home-mob.css";
 import Photo from "../media/school.svg";
 import Photo2 from "../media/school.png";
@@ -24,6 +25,7 @@ export default function Home() {
       behavior: "smooth",
     });
   };
+  console.log(typeof(document.body.clientWidth))
   return (
     <SinglePage>
       <LangContext.Consumer>
@@ -242,7 +244,7 @@ export default function Home() {
                   <div className="hon-headaer">Quick facts about us</div>
                   <div className="hon-head-line"></div>
                 </div>
-                <div className="hon-trio">
+                <div className="hon-trio hon-mob-show">
                   <div className="hon-quad" data-aos="flip-up">
                     <div className="hon-quad-round">
                       <IoSchoolSharp className="hon-quad-round-icon" />
@@ -342,9 +344,30 @@ export default function Home() {
                     <GalereyaLanding width="100%" height="100%" pic={Photo} />
                   </div>
                   <div className="galereya-small">
-                    <GalereyaLanding width="100%" height="33%" pic={Photo} />
-                    <GalereyaLanding width="100%" height="33%" pic={Photo} />
-                    <GalereyaLanding width="100%" height="33%" pic={Photo} />
+                    <GalereyaLanding
+                      width={
+                        document.body.clientWidth >= 820 ? "100%" : "50vw"
+                      }
+                      height="33%"
+                      pic={Photo}
+                      className="galereya-small-mob"
+                    />
+                    <GalereyaLanding
+                      width={
+                        document.body.clientWidth >= 820 ? "100%" : "50vw"
+                      }
+                      height="33%"
+                      pic={Photo}
+                      className="galereya-small-mob"
+                    />
+                    <GalereyaLanding
+                      width={
+                        document.body.clientWidth >= 820 ? "100%" : "50vw"
+                      }
+                      height="33%"
+                      pic={Photo}
+                      className="galereya-small-mob"
+                    />
                   </div>
                 </div>
                 <hr className="news-all-line" />
