@@ -63,4 +63,9 @@
   .news-all-line {
     top: calc(100% - 18px);
   }
+  .news-page .news-section-yangilikla{
+    height: 600px;
+    margin-top: 0px;
+    margin-bottom: 80px;
+  }
 }

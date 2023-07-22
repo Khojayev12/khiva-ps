@@ -9,6 +9,8 @@ import { RiFileTextFill } from "react-icons/ri";
 import { AiOutlineDownload } from "react-icons/ai";
 import { useState } from "react";
 import Footer from "../components/Footer";
+import "../styles/education.css"
+import "../styles/education-mob.css"
 
 export default function Academics() {
   const [isXujjat, setIsXujjat] = useState(true);

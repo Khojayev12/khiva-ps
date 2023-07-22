@@ -16,7 +16,7 @@ export default function NewsSlider(props) {
       </div>
       <hr className="news-all-line" />
       <Link to={props.path}>
-        <button className="news-all">Barcha yangiliklar</button>
+        <button className="news-all">Barchasi</button>
       </Link>
       <div className="home-n-slider" id={"news-scroll-" + props.title.trim()}>
         {props.children}
