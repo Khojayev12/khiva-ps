@@ -59,20 +59,17 @@ export default function Academics() {
             >
               <div className="ac-sec-imtihon-icons">
                 <div
-                  className="ac-sec-imtihon-icon"
-                  style={{ top: "30px", right: "30px" }}
+                  className="ac-sec-imtihon-icon ac-sec-icon-1"
                 >
                   <MdSchool className="ac-sec-exam-icon" />
                 </div>
                 <div
-                  className="ac-sec-imtihon-icon"
-                  style={{ top: "100px", right: "130px" }}
+                  className="ac-sec-imtihon-icon ac-sec-icon-2"
                 >
                   <MdSchool className="ac-sec-exam-icon" />
                 </div>
                 <div
-                  className="ac-sec-imtihon-icon"
-                  style={{ top: "130px", right: "0px" }}
+                  className="ac-sec-imtihon-icon ac-sec-icon-3"
                 >
                   <MdSchool className="ac-sec-exam-icon" />
                 </div>

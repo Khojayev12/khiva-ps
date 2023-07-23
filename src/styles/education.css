@@ -381,6 +381,18 @@
 .hide-display {
   display: none;
 }
+.ac-sec-icon-1{
+  top: 30px;
+  right: 30px;
+}
+.ac-sec-icon-2{
+  top: 100px;
+  right: 130px;
+}
+.ac-sec-icon-3{
+  top: 130px;
+  right: 0px;
+}
 @media screen and (max-width: 820px) {
   .education {
     width: calc(100%);
@@ -490,5 +502,17 @@
   .ac-sec-body{
     width: calc(100% - 40px);
     padding: 40px 20px ;
+  }
+  .ac-sec-icon-1{
+    top: 20px;
+    left: 30px;
+  }
+  .ac-sec-icon-2{
+    top: 20px;
+    right: 30px;
+  }
+  .ac-sec-icon-3{
+    top: 20px;
+    left: 50%;
   }
 }
