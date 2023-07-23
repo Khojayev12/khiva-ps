@@ -381,15 +381,15 @@
 .hide-display {
   display: none;
 }
-.ac-sec-icon-1{
+.ac-sec-icon-1 {
   top: 30px;
   right: 30px;
 }
-.ac-sec-icon-2{
+.ac-sec-icon-2 {
   top: 100px;
   right: 130px;
 }
-.ac-sec-icon-3{
+.ac-sec-icon-3 {
   top: 130px;
   right: 0px;
 }
@@ -499,20 +499,52 @@
     line-height: normal;
     text-transform: uppercase;
   }
-  .ac-sec-body{
+  .ac-sec-body {
     width: calc(100% - 40px);
-    padding: 40px 20px ;
+    padding: 40px 20px;
   }
-  .ac-sec-icon-1{
+  .ac-sec-icon-1 {
     top: 20px;
     left: 30px;
   }
-  .ac-sec-icon-2{
+  .ac-sec-icon-2 {
     top: 20px;
     right: 30px;
   }
-  .ac-sec-icon-3{
+  .ac-sec-icon-3 {
     top: 20px;
-    left: 50%;
+    left: calc(50% - 35.5px);
+  }
+  .ac-sec-imtihon-icons {
+    right: none;
+    left: 0px;
+  }
+  .ac-sec-body-p {
+    font-size: 18px;
+    line-height: normal;
+  }
+  .ac-sec-imtihon-bullet-name {
+    font-size: 21px;
+    line-height: normal;
+  }
+  .ac-sec-imtihon-bullet-list {
+    font-size: 18px;
+    line-height: normal;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  .ac-sec-fan-block{
+    width: 90px;
+    height: 120px;
+  }
+  .ac-sec-fan-rasm{
+    height: 80px;
+    width: 58px;
+    margin-top: 10px;
+  }
+  .ac-sec-fan-name{
+    font-size: 14px;
+    line-height: normal;
+    margin-top: 3px;
   }
 }
