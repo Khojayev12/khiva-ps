@@ -264,90 +264,65 @@ export default function Academics() {
               >
                 <div className="ac-sec-res-down-file">
                   <div className="ac-res-down-info">
-                    <RiFileTextFill
-                      style={{ fontSize: "38px", display: "inline-block" }}
+                    <RiFileTextFill className="ac-res-down-icon1"
                     />
                     <div className="ac-sec-res-down-name">File_Name.pdf</div>
                   </div>
                   <button className="ac-res-down-btn">
                     <AiOutlineDownload
-                      style={{
-                        fontSize: "30px",
-                        marginRight: "10px",
-                        marginBottom: "-8px",
-                      }}
+                    className="ac-res-down-icon2"
                     />
                     Download
                   </button>
                 </div>
                 <div className="ac-sec-res-down-file">
                   <div className="ac-res-down-info">
-                    <RiFileTextFill
-                      style={{ fontSize: "38px", display: "inline-block" }}
+                    <RiFileTextFill className="ac-res-down-icon1"
                     />
                     <div className="ac-sec-res-down-name">File_Name.pdf</div>
                   </div>
                   <button className="ac-res-down-btn">
                     <AiOutlineDownload
-                      style={{
-                        fontSize: "30px",
-                        marginRight: "10px",
-                        marginBottom: "-8px",
-                      }}
+                    className="ac-res-down-icon2"
                     />
                     Download
                   </button>
                 </div>
                 <div className="ac-sec-res-down-file">
                   <div className="ac-res-down-info">
-                    <RiFileTextFill
-                      style={{ fontSize: "38px", display: "inline-block" }}
+                    <RiFileTextFill className="ac-res-down-icon1"
                     />
                     <div className="ac-sec-res-down-name">File_Name.pdf</div>
                   </div>
                   <button className="ac-res-down-btn">
                     <AiOutlineDownload
-                      style={{
-                        fontSize: "30px",
-                        marginRight: "10px",
-                        marginBottom: "-8px",
-                      }}
+                    className="ac-res-down-icon2"
                     />
                     Download
                   </button>
                 </div>
                 <div className="ac-sec-res-down-file">
                   <div className="ac-res-down-info">
-                    <RiFileTextFill
-                      style={{ fontSize: "38px", display: "inline-block" }}
+                    <RiFileTextFill className="ac-res-down-icon1"
                     />
                     <div className="ac-sec-res-down-name">File_Name.pdf</div>
                   </div>
                   <button className="ac-res-down-btn">
                     <AiOutlineDownload
-                      style={{
-                        fontSize: "30px",
-                        marginRight: "10px",
-                        marginBottom: "-8px",
-                      }}
+                    className="ac-res-down-icon2"
                     />
                     Download
                   </button>
                 </div>
                 <div className="ac-sec-res-down-file">
                   <div className="ac-res-down-info">
-                    <RiFileTextFill
-                      style={{ fontSize: "38px", display: "inline-block" }}
+                    <RiFileTextFill className="ac-res-down-icon1"
                     />
                     <div className="ac-sec-res-down-name">File_Name.pdf</div>
                   </div>
                   <button className="ac-res-down-btn">
                     <AiOutlineDownload
-                      style={{
-                        fontSize: "30px",
-                        marginRight: "10px",
-                        marginBottom: "-8px",
-                      }}
+                    className="ac-res-down-icon2"
                     />
                     Download
                   </button>
@@ -362,126 +337,91 @@ export default function Academics() {
               >
                 <div className="ac-sec-res-down-file">
                   <div className="ac-res-down-info">
-                    <RiFileTextFill
-                      style={{ fontSize: "38px", display: "inline-block" }}
+                    <RiFileTextFill className="ac-res-down-icon1"
                     />
                     <div className="ac-sec-res-down-name">File_Name.pdf</div>
                   </div>
                   <button className="ac-res-down-btn">
                     <AiOutlineDownload
-                      style={{
-                        fontSize: "30px",
-                        marginRight: "10px",
-                        marginBottom: "-8px",
-                      }}
+                    className="ac-res-down-icon2"
                     />
                     Download
                   </button>
                 </div>
                 <div className="ac-sec-res-down-file">
                   <div className="ac-res-down-info">
-                    <RiFileTextFill
-                      style={{ fontSize: "38px", display: "inline-block" }}
+                    <RiFileTextFill className="ac-res-down-icon1"
                     />
                     <div className="ac-sec-res-down-name">File_Name.pdf</div>
                   </div>
                   <button className="ac-res-down-btn">
                     <AiOutlineDownload
-                      style={{
-                        fontSize: "30px",
-                        marginRight: "10px",
-                        marginBottom: "-8px",
-                      }}
+                    className="ac-res-down-icon2"
                     />
                     Download
                   </button>
                 </div>
                 <div className="ac-sec-res-down-file">
                   <div className="ac-res-down-info">
-                    <RiFileTextFill
-                      style={{ fontSize: "38px", display: "inline-block" }}
+                    <RiFileTextFill className="ac-res-down-icon1"
                     />
                     <div className="ac-sec-res-down-name">File_Name.pdf</div>
                   </div>
                   <button className="ac-res-down-btn">
                     <AiOutlineDownload
-                      style={{
-                        fontSize: "30px",
-                        marginRight: "10px",
-                        marginBottom: "-8px",
-                      }}
+                    className="ac-res-down-icon2"
                     />
                     Download
                   </button>
                 </div>
                 <div className="ac-sec-res-down-file">
                   <div className="ac-res-down-info">
-                    <RiFileTextFill
-                      style={{ fontSize: "38px", display: "inline-block" }}
+                    <RiFileTextFill className="ac-res-down-icon1"
                     />
                     <div className="ac-sec-res-down-name">File_Name.pdf</div>
                   </div>
                   <button className="ac-res-down-btn">
                     <AiOutlineDownload
-                      style={{
-                        fontSize: "30px",
-                        marginRight: "10px",
-                        marginBottom: "-8px",
-                      }}
+                    className="ac-res-down-icon2"
                     />
                     Download
                   </button>
                 </div>
                 <div className="ac-sec-res-down-file">
                   <div className="ac-res-down-info">
-                    <RiFileTextFill
-                      style={{ fontSize: "38px", display: "inline-block" }}
+                    <RiFileTextFill className="ac-res-down-icon1"
                     />
                     <div className="ac-sec-res-down-name">File_Name.pdf</div>
                   </div>
                   <button className="ac-res-down-btn">
                     <AiOutlineDownload
-                      style={{
-                        fontSize: "30px",
-                        marginRight: "10px",
-                        marginBottom: "-8px",
-                      }}
+                    className="ac-res-down-icon2"
                     />
                     Download
                   </button>
                 </div>
                 <div className="ac-sec-res-down-file">
                   <div className="ac-res-down-info">
-                    <RiFileTextFill
-                      style={{ fontSize: "38px", display: "inline-block" }}
+                    <RiFileTextFill className="ac-res-down-icon1"
                     />
                     <div className="ac-sec-res-down-name">File_Name.pdf</div>
                   </div>
                   <button className="ac-res-down-btn">
                     <AiOutlineDownload
-                      style={{
-                        fontSize: "30px",
-                        marginRight: "10px",
-                        marginBottom: "-8px",
-                      }}
+                    className="ac-res-down-icon2"
                     />
                     Download
                   </button>
                 </div>
                 <div className="ac-sec-res-down-file">
                   <div className="ac-res-down-info">
-                    <RiFileTextFill
-                      style={{ fontSize: "38px", display: "inline-block" }}
+                    <RiFileTextFill className="ac-res-down-icon1"
                     />
                     <div className="ac-sec-res-down-name">File_Name.pdf</div>
                   </div>
                   <button className="ac-res-down-btn">
                     <AiOutlineDownload
-                      style={{
-                        fontSize: "30px",
-                        marginRight: "10px",
-                        marginBottom: "-8px",
-                      }}
+                    className="ac-res-down-icon2"
                     />
                     Download
                   </button>
