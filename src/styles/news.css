@@ -177,6 +177,8 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 25px;
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
 
 .one-new {
@@ -272,7 +274,6 @@
   margin-left: 10%;
   text-align: left;
 }
-
 @media screen and (min-width: 768px) {
   .mob-single-page-news {
     display: none;

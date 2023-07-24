@@ -5,7 +5,7 @@ export const languages = {
     mainPage: "Bosh sahifa",
     yangiliklar: "Yangiliklar",
     galereya: "Galereya",
-    education: "Ta'lim tizimi",
+    education: "Ta'lim",
     aboutSchool: "Maktab haqida",
     contact: "Bog'lanish",
     lastnews: "So'ngi Yangiliklar",

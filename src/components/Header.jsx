@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 export default function Header(props) {
   const MenuClicked = () => {
-    document.getElementById("my-menu-input").click()
+    document.getElementById("my-menu-input").click();
   };
   return (
     <LangContext.Consumer>
@@ -91,27 +91,32 @@ export default function Header(props) {
                       <Link to="/" className="my-link">
                         {lang.mainPage}
                       </Link>
-                    </div> <br />
+                    </div>{" "}
+                    <br />
                     <div className="single-menu" onClick={MenuClicked}>
                       <Link to="/news" className="my-link">
                         {lang.yangiliklar}
                       </Link>
-                    </div><br />
+                    </div>
+                    <br />
                     <div className="single-menu" onClick={MenuClicked}>
                       <Link to="/galereya" className="my-link">
                         {lang.galereya}
                       </Link>
-                    </div><br />
+                    </div>
+                    <br />
                     <div className="single-menu" onClick={MenuClicked}>
                       <Link to="/academics" className="my-link">
                         {lang.education}
                       </Link>
-                    </div><br />
+                    </div>
+                    <br />
                     <div className="single-menu" onClick={MenuClicked}>
                       <Link to="/about" className="my-link">
                         {lang.aboutSchool}
                       </Link>
-                    </div><br />
+                    </div>
+                    <br />
                     <div
                       className="single-menu"
                       onClick={() => {

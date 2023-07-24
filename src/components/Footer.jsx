@@ -62,7 +62,7 @@ export default function Footer() {
                   <CiLocationOn className="foot-icon" />
                   Amir Temur {lang.street},
                   <br />
-                  Xiva, Xorazm
+                  <span style={{marginLeft:"30px"}} >Xiva, Xorazm</span>
                 </div>
                 <div className="foot-xaritas">
                   <IoCallOutline className="foot-icon" /> +998 99 999 99 99
@@ -83,7 +83,8 @@ export default function Footer() {
                     rel="noreferrer"
                     className="my-link"
                   >
-                    <SiTelegram className="foot-icon" /> Telegram
+                    <SiTelegram className="foot-icon" />
+                    Telegram
                   </a>
                 </div>
                 <div className="foot-xaritas">
@@ -104,7 +105,8 @@ export default function Footer() {
                     rel="noreferrer"
                     className="my-link"
                   >
-                    <SiFacebook className="foot-icon" /> Facebook
+                    <SiFacebook className="foot-icon" />
+                    Facebook
                   </a>
                 </div>
                 <div className="foot-xaritas">
