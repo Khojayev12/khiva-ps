@@ -34,7 +34,7 @@ export default function Home() {
               <div className="hero-section">
                 <img src={Photo2} alt="" className="hero-photo" />
                 <div className="hero-title">
-                  <div className="hero-header">Bizning maqsadimiz</div>
+                  <div className="hero-header">{lang.our_goal}</div>
                   <div className="hero-opostrov mar-60-l">“</div>
                   <div className="hero-text">
                     It is a long established fact that a reader will be
@@ -56,9 +56,9 @@ export default function Home() {
                   </div>
                   <div className="n-h-center">
                     <div className="n-h-sub">
-                      Xiva shahridagi Prezident maktabi
+                      {lang.schoolName}
                     </div>
-                    <div className="n-h-title">News & Events</div>
+                    <div className="n-h-title">{lang.news_and_events}</div>
                   </div>
                   <div className="n-h-right">
                     <img
@@ -70,7 +70,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="news-section-mob-header">
-                  <div className="nsmh-title">News & Events</div>
+                  <div className="nsmh-title">{lang.news_and_events}</div>
                   <div className="nsmh-school">{lang.schoolName}</div>
                 </div>
                 <div
@@ -82,7 +82,7 @@ export default function Home() {
                   </div>
                   <hr className="news-all-line" />
                   <Link to="/news">
-                    <button className="news-all">Ko'proq</button>
+                    <button className="news-all">{lang.more}</button>
                   </Link>
                   <div className="home-n-slider" id="news-scroll">
                     <NewsComponent
@@ -164,7 +164,7 @@ export default function Home() {
               <div className="education">
                 <div className="edu-header">
                   <hr className="edu-head-line" />
-                  <div className="edu-head-title">Education system</div>
+                  <div className="edu-head-title">{lang.edu_tizim}</div>
                 </div>
                 <div className="edu-body">
                   <div className="edu-menu">
@@ -181,7 +181,7 @@ export default function Home() {
                         setEduLevel(1);
                       }}
                     >
-                      Overall
+                      {lang.umumiy}
                     </div>
                     <div
                       className={
@@ -240,7 +240,7 @@ export default function Home() {
               <div className="honors-section">
                 <div className="hon-head">
                   <div className="hon-head-line"></div>
-                  <div className="hon-headaer">Quick facts about us</div>
+                  <div className="hon-headaer">{lang.quick_facts}</div>
                   <div className="hon-head-line"></div>
                 </div>
                 <div className="hon-trio hon-mob-show">
@@ -336,7 +336,7 @@ export default function Home() {
 
               <div className="galereya">
                 <div className="galereya-header">
-                  <div className="galereya-title">Galereya</div>
+                  <div className="galereya-title">{lang.galereya}</div>
                 </div>
                 <div className="galereya-show">
                   <div className="galereya-big">
@@ -374,12 +374,12 @@ export default function Home() {
                 </div>
                 <hr className="gal-all-line" />
                 <Link to="/galereya">
-                  <button className="my-all-btn gal-all">Barchasi</button>
+                  <button className="my-all-btn gal-all">{lang.all}</button>
                 </Link>
               </div>
 
               <div className="school-staff">
-                <div className="staff-title">MAKTAB MA'MURIYATI</div>
+                <div className="staff-title">{lang.school_staff}</div>
                 <div className="staff-flex">
                   <SchoolStaffLanding
                     pic={Photo}
@@ -398,7 +398,7 @@ export default function Home() {
                 </div>
                 <hr className=" staff-all-line-mob" />
                 <Link to="/administration">
-                  <button className="staff-all">Barchasi</button>
+                  <button className="staff-all">{lang.all}</button>
                 </Link>
               </div>
             </div>
